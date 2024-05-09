@@ -1,0 +1,18 @@
+IO_LOC  "rst_n" 3;
+
+IO_LOC  "leds[0]" 25;
+
+IO_LOC  "leds[1]" 26;
+
+IO_LOC  "leds[2]" 27;
+
+IO_LOC  "leds[3]" 28;
+
+IO_LOC  "leds[4]" 29;
+
+IO_LOC  "leds[5]" 30;
+
+IO_LOC  "leds[6]" 33;
+
+IO_LOC  "clk" 52;
+IO_PORT "clk" IO_TYPE=LVCMOS33 PULL_MODE=UP;

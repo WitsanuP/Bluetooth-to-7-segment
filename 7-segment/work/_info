@@ -1,0 +1,103 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/pol/Desktop
+vseven_segment
+Z0 !s110 1715240825
+!i10b 1
+!s100 H3Cgm967leanc@D2og^863
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IM@B3>JM^@1KST=2@@M[hM1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 d/home/pol/Documents/KMITL/year3/project1/7-segment
+w1715000904
+8/home/pol/Documents/KMITL/year3/project1/7-segment/7-segment.v
+F/home/pol/Documents/KMITL/year3/project1/7-segment/7-segment.v
+!i122 50
+L0 1 21
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1715240825.000000
+!s107 /home/pol/Documents/KMITL/year3/project1/7-segment/7-segment.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/pol/Documents/KMITL/year3/project1/7-segment/7-segment.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vsysctrl
+R0
+!i10b 1
+!s100 n19:V4F8Y`N<gcd9K3R8N2
+R1
+I3ID1^HXFiOS?PmLl=eS371
+R2
+R3
+w1714999279
+8/home/pol/Documents/KMITL/year3/project1/7-segment/sysctrl.v
+F/home/pol/Documents/KMITL/year3/project1/7-segment/sysctrl.v
+!i122 51
+L0 2 23
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/pol/Documents/KMITL/year3/project1/7-segment/sysctrl.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/pol/Documents/KMITL/year3/project1/7-segment/sysctrl.v|
+!i113 1
+R6
+R7
+vtestbennch
+R0
+!i10b 1
+!s100 IYhLgc^R7Z0U^OSUkMB:E0
+R1
+I^enm=l=M86OOhn>f@CFkF3
+R2
+R3
+w1715240180
+8/home/pol/Documents/KMITL/year3/project1/7-segment/testbench.v
+F/home/pol/Documents/KMITL/year3/project1/7-segment/testbench.v
+!i122 52
+L0 1 22
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/pol/Documents/KMITL/year3/project1/7-segment/testbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/pol/Documents/KMITL/year3/project1/7-segment/testbench.v|
+!i113 1
+R6
+R7
+vtop
+R0
+!i10b 1
+!s100 U6_R87^K97K;]>Fg8TK;I3
+R1
+IEm][M^S2l3BLiEAmaj1`O1
+R2
+R3
+w1715240822
+8/home/pol/Documents/KMITL/year3/project1/7-segment/test-segment.v
+F/home/pol/Documents/KMITL/year3/project1/7-segment/test-segment.v
+!i122 53
+L0 1 109
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/pol/Documents/KMITL/year3/project1/7-segment/test-segment.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/pol/Documents/KMITL/year3/project1/7-segment/test-segment.v|
+!i113 1
+R6
+R7

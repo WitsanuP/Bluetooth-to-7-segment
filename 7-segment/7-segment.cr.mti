@@ -1,0 +1,22 @@
+/home/pol/Documents/KMITL/year3/project1/7-segment/7-segment.v {1 {vlog -work work -stats=none /home/pol/Documents/KMITL/year3/project1/7-segment/7-segment.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module seven_segment
+
+Top level modules:
+	seven_segment
+
+} {} {}} /home/pol/Documents/KMITL/year3/project1/7-segment/testbench.v {1 {vlog -work work -stats=none /home/pol/Documents/KMITL/year3/project1/7-segment/testbench.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module testbennch
+
+Top level modules:
+	testbennch
+
+} {} {}} /home/pol/Documents/KMITL/year3/project1/7-segment/sysctrl.v {1 {vlog -work work -stats=none /home/pol/Documents/KMITL/year3/project1/7-segment/sysctrl.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module sysctrl
+
+Top level modules:
+	sysctrl
+
+} {} {}}
