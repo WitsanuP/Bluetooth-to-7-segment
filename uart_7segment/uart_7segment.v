@@ -78,8 +78,10 @@ always @(posedge clk) begin
     endcase
 end
 
-always @(posedge clk) begin
-    if (byteReady) begin
+always @(posedge clk or negedge reset_n)  begin
+    if (~reset_n)
+      leds <= 0;
+    else if (byteReady) begin
         //led <= ~dataIn[5:0];
         case (dataIn)
             0       :   leds <= _0;
