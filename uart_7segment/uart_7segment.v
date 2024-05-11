@@ -6,9 +6,20 @@ module top
     input clk,
     input uart_rx,
     output uart_tx,
-    output reg [5:0] led,
+    output reg [6:0] leds,
     input btn1
 );
+
+localparam _0 = 7'b011_1111;
+localparam _1 = 7'b0001001;
+localparam _2 = 7'b1011110;
+localparam _3 = 7'b1011011;
+localparam _4 = 7'b1101001;
+localparam _5 = 7'b1110011;
+localparam _6 = 7'b1110111;
+localparam _7 = 7'b0011001;
+localparam _8 = 7'b111_1111;
+localparam _9 = 7'b1111011;
 
 localparam HALF_DELAY_WAIT = (DELAY_FRAMES / 2);
 
@@ -69,7 +80,20 @@ end
 
 always @(posedge clk) begin
     if (byteReady) begin
-        led <= ~dataIn[5:0];
+        //led <= ~dataIn[5:0];
+        case (dataIn)
+            0       :   leds <= _0;
+            1       :   leds <= _1; 
+            2       :   leds <= _2;
+            3       :   leds <= _3;
+            4       :   leds <= _4;
+            5       :   leds <= _5;
+            6       :   leds <= _6; 
+            7       :   leds <= _7;
+            8       :   leds <= _8;
+            9       :   leds <= _9;
+            default :   leds <= _5;
+        endcase
     end
 end
 
@@ -164,3 +188,4 @@ always @(posedge clk) begin
     endcase      
 end
 endmodule
+//echo -n -e '\x00' > /dev/ttyUSB1

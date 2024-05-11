@@ -1,0 +1,17 @@
+{
+ "Device" : "GW1NR-9C",
+ "Files" : [
+  {
+   "Path" : "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/uart_7segment/uart_7segment/uart_7segment.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/uart_7segment/uart_7segment/impl/temp/rtl_parser.result",
+ "Top" : "",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}

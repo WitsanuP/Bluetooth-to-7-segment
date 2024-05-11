@@ -1,54 +1,309 @@
 # Loading project UART
-vsim work.test -L gowin
-# vsim work.test -L gowin 
-# Start time: 16:39:13 on May 09,2024
-# Loading work.test
-# Loading work.uart
-restart
-run -all
-# Starting UART RX
-# LED Value xxxxxx
-# LED Value 011110
-# ** Note: $finish    : /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v(35)
-#    Time: 1162 ps  Iteration: 0  Instance: /test
-# 1
-# Break in Module test at /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v line 35
-quit -sim
-# End time: 16:40:14 on May 09,2024, Elapsed time: 0:01:01
-# Errors: 0, Warnings: 1
-# reading /home/pol/Program/altera/modelsim_ase/linuxaloem/../modelsim.ini
-# Loading project UART
 # Compile of uart.v was successful.
 # Compile of uart_tb.v was successful.
 # 2 compiles, 0 failed with no errors.
-vsim -L gowin work.test
-# vsim -L gowin work.test 
-# Start time: 16:42:00 on May 09,2024
+vsim work.test -L gowin
+# vsim work.test -L gowin 
+# Start time: 15:42:53 on May 10,2024
 # Loading work.test
 # Loading work.uart
-add wave -position insertpoint sim:/test/u/clk
-add wave -position insertpoint sim:/test/u/uart_rx
-add wave -position insertpoint sim:/test/u/uart_tx
-add wave -position insertpoint sim:/test/u/led
-add wave -position insertpoint sim:/test/u/btn1
 restart
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
 run -all
 # Starting UART RX
 # LED Value xxxxxx
 # LED Value 011110
-# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v(35)
-#    Time: 1162 ps  Iteration: 0  Instance: /test
-# Break in Module test at /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v line 35
-add wave -position insertpoint sim:/test/u/rxState
+# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v(37)
+#    Time: 10154 ps  Iteration: 0  Instance: /test
+# Break in Module test at /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v line 37
+add wave -position insertpoint  \
+sim:/test/clk \
+sim:/test/uart_rx \
+sim:/test/uart_tx \
+sim:/test/led \
+sim:/test/btn
+add wave -position insertpoint  \
+sim:/test/u/dataIn
 restart
 # Closing VCD file "uart.vcd"
 run -all
 # Starting UART RX
 # LED Value xxxxxx
 # LED Value 011110
-# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v(35)
-#    Time: 1162 ps  Iteration: 0  Instance: /test
-# Break in Module test at /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v line 35
-# End time: 17:03:49 on May 09,2024, Elapsed time: 0:21:49
+# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v(37)
+#    Time: 10154 ps  Iteration: 0  Instance: /test
+# Break in Module test at /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v line 37
+# Compile of uart.v was successful.
+# Compile of uart_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# Closing VCD file "uart.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.test
+run -all
+# Starting UART RX
+# LED Value xxxxxx
+# LED Value 011110
+# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v(37)
+#    Time: 10154 ps  Iteration: 0  Instance: /test
+# Break in Module test at /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v line 37
+# Compile of uart.v was successful.
+# Compile of uart_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# Closing VCD file "uart.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.test
+run
+# Starting UART RX
+# LED Value xxxxxx
+# LED Value 011110
+# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v(37)
+#    Time: 10154 ps  Iteration: 0  Instance: /test
+# Break in Module test at /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v line 37
+add wave -position insertpoint sim:/test/u/byteReady
+restart
+# Closing VCD file "uart.vcd"
+run -all
+# Starting UART RX
+# LED Value xxxxxx
+# LED Value 011110
+# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v(37)
+#    Time: 10154 ps  Iteration: 0  Instance: /test
+# Break in Module test at /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v line 37
+# Compile of uart.v was successful.
+# Compile of uart_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# Closing VCD file "uart.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.test
+run -all
+# Starting UART RX
+# LED Value xxxxxx
+# LED Value 011110
+# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v(37)
+#    Time: 10154 ps  Iteration: 0  Instance: /test
+# Break in Module test at /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v line 37
+vsim -L gowin work.test
+# End time: 15:55:01 on May 10,2024, Elapsed time: 0:12:08
+# Errors: 0, Warnings: 1
+# vsim -L gowin work.test 
+# Start time: 15:55:01 on May 10,2024
+# Loading work.test
+# Loading work.uart
+restart
+add wave -position insertpoint  \
+sim:/test/clk \
+sim:/test/uart_rx \
+sim:/test/uart_tx \
+sim:/test/led
+run -all
+# Starting UART RX
+# LED Value xxxxxx
+# LED Value 011110
+# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v(37)
+#    Time: 10154 ps  Iteration: 0  Instance: /test
+# Break in Module test at /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v line 37
+# Compile of uart.v was successful.
+# Compile of uart_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# Closing VCD file "uart.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.test
+run -all
+# Starting UART RX
+# LED Value xxxxxx
+# LED Value 011010
+# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v(37)
+#    Time: 10154 ps  Iteration: 0  Instance: /test
+# Break in Module test at /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v line 37
+add wave -position insertpoint sim:/test/u/byteReady
+add wave -position insertpoint sim:/test/u/dataIn
+restart
+# Closing VCD file "uart.vcd"
+run -all
+# Starting UART RX
+# LED Value xxxxxx
+# LED Value 011010
+# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v(37)
+#    Time: 10154 ps  Iteration: 0  Instance: /test
+# Break in Module test at /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v line 37
+add wave -position insertpoint sim:/test/u/clk
+add wave -position insertpoint sim:/test/u/uart_rx
+add wave -position insertpoint sim:/test/u/uart_tx
+add wave -position insertpoint sim:/test/u/led
+add wave -position insertpoint sim:/test/u/btn1
+add wave -position insertpoint sim:/test/u/byteReady
+add wave -position insertpoint sim:/test/u/led
+restart
+# Closing VCD file "uart.vcd"
+run -all
+# Starting UART RX
+# LED Value xxxxxx
+# LED Value 011010
+# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v(37)
+#    Time: 10154 ps  Iteration: 0  Instance: /test
+# Break in Module test at /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v line 37
+# Compile of uart.v was successful.
+# Compile of uart_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# Closing VCD file "uart.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.test
+run -all
+# Starting UART RX
+# LED Value xxxxxx
+# LED Value 011010
+# LED Value 100011
+# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v(53)
+#    Time: 10398 ps  Iteration: 0  Instance: /test
+# Break in Module test at /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v line 53
+add wave -position insertpoint sim:/test/u/dataIn
+# Compile of uart.v was successful.
+# Compile of uart_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# Closing VCD file "uart.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.test
+run -all
+# Starting UART RX
+# LED Value xxxxxx
+# LED Value 011010
+# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v(37)
+#    Time: 10154 ps  Iteration: 0  Instance: /test
+# Break in Module test at /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v line 37
+# Compile of uart.v was successful.
+# Compile of uart_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# Closing VCD file "uart.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.test
+run -all
+# Starting UART RX
+# LED Value xxxxxx
+# LED Value 111111
+# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v(37)
+#    Time: 10154 ps  Iteration: 0  Instance: /test
+# Break in Module test at /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v line 37
+# Compile of uart.v was successful.
+# Compile of uart_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# Closing VCD file "uart.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.test
+run -all
+# Starting UART RX
+# LED Value xxxxxx
+# LED Value 111111
+# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v(37)
+#    Time: 10154 ps  Iteration: 0  Instance: /test
+# Break in Module test at /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v line 37
+# Compile of uart.v was successful.
+# Compile of uart_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# Closing VCD file "uart.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.test
+run -all
+# Starting UART RX
+# LED Value xxxxxx
+# LED Value 011010
+# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v(37)
+#    Time: 10154 ps  Iteration: 0  Instance: /test
+# Break in Module test at /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v line 37
+# Compile of uart.v was successful.
+# Compile of uart_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# Closing VCD file "uart.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.test
+run -all
+# Starting UART RX
+# LED Value xxxxxx
+# LED Value 111111
+# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v(37)
+#    Time: 10154 ps  Iteration: 0  Instance: /test
+# Break in Module test at /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v line 37
+# Compile of uart.v was successful.
+# Compile of uart_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of uart.v was successful.
+# Compile of uart_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# Closing VCD file "uart.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.test
+run
+# Starting UART RX
+# LED Value xxxxxx
+# LED Value 111111
+# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v(37)
+#    Time: 10154 ps  Iteration: 0  Instance: /test
+# Break in Module test at /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v line 37
+# Compile of uart.v was successful.
+# Compile of uart_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# Closing VCD file "uart.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.test
+run -all
+# Starting UART RX
+# LED Value xxxxxx
+# LED Value 111111
+# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v(37)
+#    Time: 10154 ps  Iteration: 0  Instance: /test
+# Break in Module test at /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v line 37
+# Compile of uart.v was successful.
+# Compile of uart_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# Closing VCD file "uart.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.test
+run -all
+# Starting UART RX
+# LED Value xxxxxx
+# LED Value 100101
+# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v(37)
+#    Time: 10154 ps  Iteration: 0  Instance: /test
+# Break in Module test at /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v line 37
+# Compile of uart.v was successful.
+# Compile of uart_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# Closing VCD file "uart.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.test
+run -all
+# Starting UART RX
+# LED Value xxxxxx
+# LED Value 111111
+# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v(37)
+#    Time: 10154 ps  Iteration: 0  Instance: /test
+# Break in Module test at /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v line 37
+# Compile of uart.v was successful.
+# Compile of uart_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# Closing VCD file "uart.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.test
+run -all
+# Starting UART RX
+# LED Value xxxxxx
+# LED Value 000000
+# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v(37)
+#    Time: 10154 ps  Iteration: 0  Instance: /test
+# Break in Module test at /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v line 37
+# End time: 17:46:52 on May 10,2024, Elapsed time: 1:51:51
 # Errors: 0, Warnings: 1

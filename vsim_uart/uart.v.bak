@@ -1,6 +1,4 @@
-`default_nettype none
-
-module uart
+module top
 #(
     parameter DELAY_FRAMES = 234 // 27,000,000 (27Mhz) / 115200 Baud rate
 )
@@ -71,7 +69,8 @@ end
 
 always @(posedge clk) begin
     if (byteReady) begin
-        led <= ~dataIn[5:0];
+        //led <= ~dataIn[5:0];
+        led <= dataIn[5:0];
     end
 end
 

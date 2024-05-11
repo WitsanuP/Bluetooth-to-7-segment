@@ -21,18 +21,20 @@ module test();
     $display("Starting UART RX");
     $monitor("LED Value %b", led);
     #10 uart_rx=0;
+
+    #16 uart_rx=0;
+    #16 uart_rx=0;
+    #16 uart_rx=0;
+    #16 uart_rx=0;
+    #16 uart_rx=0;
+    #16 uart_rx=0;
+    #16 uart_rx=0;
+    #16 uart_rx=0;
+
     #16 uart_rx=1;
-    #16 uart_rx=0;
-    #16 uart_rx=0;
-    #16 uart_rx=0;
-    #16 uart_rx=0;
-    #16 uart_rx=1;
-    #16 uart_rx=1;
-    #16 uart_rx=0;
-    #16 uart_rx=1;
-    #4 btn=0;
-    #4 btn=1;
-    #1000 $finish;
+    // #4 btn=0;
+    // #4 btn=1;
+    #10000 $stop;
   end
 
   initial begin
