@@ -1,309 +1,258 @@
 # Loading project UART
-# Compile of uart.v was successful.
-# Compile of uart_tb.v was successful.
-# 2 compiles, 0 failed with no errors.
-vsim work.test -L gowin
-# vsim work.test -L gowin 
-# Start time: 15:42:53 on May 10,2024
-# Loading work.test
-# Loading work.uart
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-run -all
-# Starting UART RX
-# LED Value xxxxxx
-# LED Value 011110
-# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v(37)
-#    Time: 10154 ps  Iteration: 0  Instance: /test
-# Break in Module test at /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v line 37
-add wave -position insertpoint  \
-sim:/test/clk \
-sim:/test/uart_rx \
-sim:/test/uart_tx \
-sim:/test/led \
-sim:/test/btn
-add wave -position insertpoint  \
-sim:/test/u/dataIn
-restart
-# Closing VCD file "uart.vcd"
-run -all
-# Starting UART RX
-# LED Value xxxxxx
-# LED Value 011110
-# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v(37)
-#    Time: 10154 ps  Iteration: 0  Instance: /test
-# Break in Module test at /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v line 37
-# Compile of uart.v was successful.
-# Compile of uart_tb.v was successful.
-# 2 compiles, 0 failed with no errors.
-restart
-# Closing VCD file "uart.vcd"
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.test
-run -all
-# Starting UART RX
-# LED Value xxxxxx
-# LED Value 011110
-# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v(37)
-#    Time: 10154 ps  Iteration: 0  Instance: /test
-# Break in Module test at /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v line 37
-# Compile of uart.v was successful.
-# Compile of uart_tb.v was successful.
-# 2 compiles, 0 failed with no errors.
-restart
-# Closing VCD file "uart.vcd"
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.test
-run
-# Starting UART RX
-# LED Value xxxxxx
-# LED Value 011110
-# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v(37)
-#    Time: 10154 ps  Iteration: 0  Instance: /test
-# Break in Module test at /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v line 37
-add wave -position insertpoint sim:/test/u/byteReady
-restart
-# Closing VCD file "uart.vcd"
-run -all
-# Starting UART RX
-# LED Value xxxxxx
-# LED Value 011110
-# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v(37)
-#    Time: 10154 ps  Iteration: 0  Instance: /test
-# Break in Module test at /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v line 37
-# Compile of uart.v was successful.
-# Compile of uart_tb.v was successful.
-# 2 compiles, 0 failed with no errors.
-restart
-# Closing VCD file "uart.vcd"
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.test
-run -all
-# Starting UART RX
-# LED Value xxxxxx
-# LED Value 011110
-# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v(37)
-#    Time: 10154 ps  Iteration: 0  Instance: /test
-# Break in Module test at /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v line 37
-vsim -L gowin work.test
-# End time: 15:55:01 on May 10,2024, Elapsed time: 0:12:08
-# Errors: 0, Warnings: 1
-# vsim -L gowin work.test 
-# Start time: 15:55:01 on May 10,2024
-# Loading work.test
-# Loading work.uart
-restart
-add wave -position insertpoint  \
-sim:/test/clk \
-sim:/test/uart_rx \
-sim:/test/uart_tx \
-sim:/test/led
-run -all
-# Starting UART RX
-# LED Value xxxxxx
-# LED Value 011110
-# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v(37)
-#    Time: 10154 ps  Iteration: 0  Instance: /test
-# Break in Module test at /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v line 37
-# Compile of uart.v was successful.
-# Compile of uart_tb.v was successful.
-# 2 compiles, 0 failed with no errors.
-restart
-# Closing VCD file "uart.vcd"
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.test
-run -all
-# Starting UART RX
-# LED Value xxxxxx
-# LED Value 011010
-# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v(37)
-#    Time: 10154 ps  Iteration: 0  Instance: /test
-# Break in Module test at /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v line 37
-add wave -position insertpoint sim:/test/u/byteReady
-add wave -position insertpoint sim:/test/u/dataIn
-restart
-# Closing VCD file "uart.vcd"
-run -all
-# Starting UART RX
-# LED Value xxxxxx
-# LED Value 011010
-# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v(37)
-#    Time: 10154 ps  Iteration: 0  Instance: /test
-# Break in Module test at /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v line 37
-add wave -position insertpoint sim:/test/u/clk
-add wave -position insertpoint sim:/test/u/uart_rx
-add wave -position insertpoint sim:/test/u/uart_tx
-add wave -position insertpoint sim:/test/u/led
-add wave -position insertpoint sim:/test/u/btn1
-add wave -position insertpoint sim:/test/u/byteReady
-add wave -position insertpoint sim:/test/u/led
-restart
-# Closing VCD file "uart.vcd"
-run -all
-# Starting UART RX
-# LED Value xxxxxx
-# LED Value 011010
-# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v(37)
-#    Time: 10154 ps  Iteration: 0  Instance: /test
-# Break in Module test at /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v line 37
-# Compile of uart.v was successful.
-# Compile of uart_tb.v was successful.
-# 2 compiles, 0 failed with no errors.
-restart
-# Closing VCD file "uart.vcd"
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.test
-run -all
-# Starting UART RX
-# LED Value xxxxxx
-# LED Value 011010
-# LED Value 100011
-# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v(53)
-#    Time: 10398 ps  Iteration: 0  Instance: /test
-# Break in Module test at /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v line 53
-add wave -position insertpoint sim:/test/u/dataIn
-# Compile of uart.v was successful.
-# Compile of uart_tb.v was successful.
-# 2 compiles, 0 failed with no errors.
-restart
-# Closing VCD file "uart.vcd"
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.test
-run -all
-# Starting UART RX
-# LED Value xxxxxx
-# LED Value 011010
-# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v(37)
-#    Time: 10154 ps  Iteration: 0  Instance: /test
-# Break in Module test at /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v line 37
-# Compile of uart.v was successful.
-# Compile of uart_tb.v was successful.
-# 2 compiles, 0 failed with no errors.
-restart
-# Closing VCD file "uart.vcd"
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.test
-run -all
-# Starting UART RX
-# LED Value xxxxxx
-# LED Value 111111
-# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v(37)
-#    Time: 10154 ps  Iteration: 0  Instance: /test
-# Break in Module test at /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v line 37
-# Compile of uart.v was successful.
-# Compile of uart_tb.v was successful.
-# 2 compiles, 0 failed with no errors.
-restart
-# Closing VCD file "uart.vcd"
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.test
-run -all
-# Starting UART RX
-# LED Value xxxxxx
-# LED Value 111111
-# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v(37)
-#    Time: 10154 ps  Iteration: 0  Instance: /test
-# Break in Module test at /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v line 37
-# Compile of uart.v was successful.
-# Compile of uart_tb.v was successful.
-# 2 compiles, 0 failed with no errors.
-restart
-# Closing VCD file "uart.vcd"
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.test
-run -all
-# Starting UART RX
-# LED Value xxxxxx
-# LED Value 011010
-# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v(37)
-#    Time: 10154 ps  Iteration: 0  Instance: /test
-# Break in Module test at /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v line 37
-# Compile of uart.v was successful.
-# Compile of uart_tb.v was successful.
-# 2 compiles, 0 failed with no errors.
-restart
-# Closing VCD file "uart.vcd"
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.test
-run -all
-# Starting UART RX
-# LED Value xxxxxx
-# LED Value 111111
-# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v(37)
-#    Time: 10154 ps  Iteration: 0  Instance: /test
-# Break in Module test at /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v line 37
-# Compile of uart.v was successful.
-# Compile of uart_tb.v was successful.
-# 2 compiles, 0 failed with no errors.
-# Compile of uart.v was successful.
-# Compile of uart_tb.v was successful.
-# 2 compiles, 0 failed with no errors.
-restart
-# Closing VCD file "uart.vcd"
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.test
-run
-# Starting UART RX
-# LED Value xxxxxx
-# LED Value 111111
-# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v(37)
-#    Time: 10154 ps  Iteration: 0  Instance: /test
-# Break in Module test at /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v line 37
-# Compile of uart.v was successful.
-# Compile of uart_tb.v was successful.
-# 2 compiles, 0 failed with no errors.
-restart
-# Closing VCD file "uart.vcd"
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.test
-run -all
-# Starting UART RX
-# LED Value xxxxxx
-# LED Value 111111
-# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v(37)
-#    Time: 10154 ps  Iteration: 0  Instance: /test
-# Break in Module test at /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v line 37
-# Compile of uart.v was successful.
-# Compile of uart_tb.v was successful.
-# 2 compiles, 0 failed with no errors.
-restart
-# Closing VCD file "uart.vcd"
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.test
-run -all
-# Starting UART RX
-# LED Value xxxxxx
-# LED Value 100101
-# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v(37)
-#    Time: 10154 ps  Iteration: 0  Instance: /test
-# Break in Module test at /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v line 37
-# Compile of uart.v was successful.
-# Compile of uart_tb.v was successful.
-# 2 compiles, 0 failed with no errors.
-restart
-# Closing VCD file "uart.vcd"
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.test
-run -all
-# Starting UART RX
-# LED Value xxxxxx
-# LED Value 111111
-# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v(37)
-#    Time: 10154 ps  Iteration: 0  Instance: /test
-# Break in Module test at /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v line 37
-# Compile of uart.v was successful.
-# Compile of uart_tb.v was successful.
-# 2 compiles, 0 failed with no errors.
-restart
-# Closing VCD file "uart.vcd"
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.test
-run -all
-# Starting UART RX
-# LED Value xxxxxx
-# LED Value 000000
-# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v(37)
-#    Time: 10154 ps  Iteration: 0  Instance: /test
-# Break in Module test at /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart/uart_tb.v line 37
-# End time: 17:46:52 on May 10,2024, Elapsed time: 1:51:51
-# Errors: 0, Warnings: 1
+# reading /home/pol/Program/altera/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project uart_7segment
+vlib gowin
+vmap gowin gowin
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap gowin gowin 
+# Modifying /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/00_vsim/uart_7segment.mpf
+vmap -del gowin
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap -del gowin 
+# Removing reference to logical library gowin
+# Modifying /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/00_vsim/uart_7segment.mpf
+# reading /home/pol/Program/altera/modelsim_ase/linuxaloem/../modelsim.ini
+pwd
+# /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/00_vsim
+ls
+# uart_7segment.cr.mti
+lscpu
+# Architecture:                       x86_64
+# CPU op-mode(s):                     32-bit, 64-bit
+# Address sizes:                      39 bits physical, 48 bits virtual
+# Byte Order:                         Little Endian
+# CPU(s):                             8
+# On-line CPU(s) list:                0-7
+# Vendor ID:                          GenuineIntel
+# Model name:                         Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz
+# CPU family:                         6
+# Model:                              142
+# Thread(s) per core:                 2
+# Core(s) per socket:                 4
+# Socket(s):                          1
+# Stepping:                           10
+# CPU max MHz:                        4000.0000
+# CPU min MHz:                        400.0000
+# BogoMIPS:                           3999.93
+# Flags:                              fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp vnmi md_clear flush_l1d arch_capabilities
+# Virtualization:                     VT-x
+# L1d cache:                          128 KiB (4 instances)
+# L1i cache:                          128 KiB (4 instances)
+# L2 cache:                           1 MiB (4 instances)
+# L3 cache:                           8 MiB (1 instance)
+# NUMA node(s):                       1
+# NUMA node0 CPU(s):                  0-7
+# Vulnerability Gather data sampling: Mitigation; Microcode
+# Vulnerability Itlb multihit:        KVM: Mitigation: VMX disabled
+# Vulnerability L1tf:                 Mitigation; PTE Inversion; VMX conditional cache flushes, SMT vulnerable
+# Vulnerability Mds:                  Mitigation; Clear CPU buffers; SMT vulnerable
+# Vulnerability Meltdown:             Mitigation; PTI
+# Vulnerability Mmio stale data:      Mitigation; Clear CPU buffers; SMT vulnerable
+# Vulnerability Retbleed:             Mitigation; IBRS
+# Vulnerability Spec rstack overflow: Not affected
+# Vulnerability Spec store bypass:    Mitigation; Speculative Store Bypass disabled via prctl
+# Vulnerability Spectre v1:           Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+# Vulnerability Spectre v2:           Mitigation; IBRS, IBPB conditional, STIBP conditional, RSB filling, PBRSB-eIBRS Not affected
+# Vulnerability Srbds:                Mitigation; Microcode
+# Vulnerability Tsx async abort:      Not affected
+# Loading project uart_7segment
+vlib gowin
+vlog -work {$MODEL_TECH/../altera/vhdl/220model} -refresh -force_refresh
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:28:24 on May 13,2024
+# vlog -reportprogress 300 -work $MODEL_TECH/../altera/vhdl/220model -refresh -force_refresh 
+# ** Warning: (vlib-34) Library already exists at "/home/pol/Program/altera/modelsim_ase/linuxaloem/../altera/vhdl/220model".
+# -- Skipping entity lpm_abs
+# -- Skipping entity lpm_add_sub
+# -- Skipping entity lpm_add_sub_signed
+# -- Skipping entity lpm_add_sub_unsigned
+# -- Skipping entity lpm_and
+# -- Skipping entity lpm_bipad
+# -- Skipping entity lpm_bustri
+# -- Skipping entity lpm_clshift
+# -- Skipping package lpm_common_conversion
+# -- Skipping entity lpm_compare
+# -- Skipping entity lpm_compare_signed
+# -- Skipping entity lpm_compare_unsigned
+# -- Skipping package lpm_components
+# -- Skipping entity lpm_constant
+# -- Skipping entity lpm_counter
+# -- Skipping entity lpm_decode
+# -- Skipping package lpm_device_families
+# -- Skipping entity lpm_divide
+# -- Skipping entity lpm_ff
+# -- Skipping entity lpm_fifo
+# -- Skipping entity lpm_fifo_dc
+# -- Skipping entity lpm_fifo_dc_async
+# -- Skipping entity lpm_fifo_dc_dffpipe
+# -- Skipping entity lpm_fifo_dc_fefifo
+# -- Skipping package lpm_hint_evaluation
+# -- Skipping entity lpm_inpad
+# -- Skipping entity lpm_inv
+# -- Skipping entity lpm_latch
+# -- Skipping entity lpm_mult
+# -- Skipping entity lpm_mux
+# -- Skipping entity lpm_or
+# -- Skipping entity lpm_outpad
+# -- Skipping entity lpm_ram_dp
+# -- Skipping entity lpm_ram_dq
+# -- Skipping entity lpm_ram_io
+# -- Skipping entity lpm_rom
+# -- Skipping entity lpm_shiftreg
+# -- Skipping entity lpm_xor
+# End time: 13:28:24 on May 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work {$MODEL_TECH/../altera/vhdl/220model} -refresh -force_refresh
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:28:24 on May 13,2024
+# vcom -reportprogress 300 -work $MODEL_TECH/../altera/vhdl/220model -refresh -force_refresh 
+# ** Warning: (vlib-34) Library already exists at "/home/pol/Program/altera/modelsim_ase/linuxaloem/../altera/vhdl/220model".
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading package LPM_COMPONENTS
+# -- Compiling entity lpm_abs
+# -- Compiling architecture LPM_SYN of LPM_ABS
+# -- Loading entity LPM_ADD_SUB_SIGNED
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity LPM_ADD_SUB_UNSIGNED
+# -- Compiling entity LPM_ADD_SUB
+# -- Compiling architecture LPM_SYN of LPM_ADD_SUB
+# -- Compiling entity LPM_ADD_SUB_SIGNED
+# -- Compiling architecture LPM_SYN of LPM_ADD_SUB_SIGNED
+# -- Compiling entity LPM_ADD_SUB_UNSIGNED
+# -- Compiling architecture LPM_SYN of LPM_ADD_SUB_UNSIGNED
+# -- Compiling entity lpm_and
+# -- Compiling architecture LPM_SYN of lpm_and
+# -- Compiling entity LPM_BIpad
+# -- Compiling architecture LPM_SYN of LPM_BIpad
+# -- Compiling entity LPM_BUSTRI
+# -- Compiling architecture LPM_SYN of LPM_BUSTRI
+# -- Compiling entity LPM_CLSHIFT
+# -- Compiling architecture LPM_SYN of LPM_CLSHIFT
+# -- Compiling package LPM_COMMON_CONVERSION
+# -- Compiling package body LPM_COMMON_CONVERSION
+# -- Loading package LPM_COMMON_CONVERSION
+# -- Loading entity LPM_COMPARE_SIGNED
+# -- Loading entity LPM_COMPARE_UNSIGNED
+# -- Compiling entity LPM_COMPARE
+# -- Compiling architecture LPM_SYN of LPM_COMPARE
+# -- Compiling entity LPM_COMPARE_SIGNED
+# -- Compiling architecture LPM_SYN of LPM_COMPARE_SIGNED
+# -- Compiling entity LPM_COMPARE_UNSIGNED
+# -- Compiling architecture LPM_SYN of LPM_COMPARE_UNSIGNED
+# -- Compiling package LPM_COMPONENTS
+# -- Loading package LPM_COMPONENTS
+# -- Compiling entity LPM_CONSTANT
+# -- Compiling architecture LPM_SYN of LPM_CONSTANT
+# -- Loading package LPM_COMMON_CONVERSION
+# -- Compiling entity LPM_COUNTER
+# -- Compiling architecture LPM_SYN of LPM_COUNTER
+# -- Compiling entity LPM_DECODE
+# -- Compiling architecture LPM_SYN of LPM_DECODE
+# -- Compiling package LPM_DEVICE_FAMILIES
+# -- Compiling package body LPM_DEVICE_FAMILIES
+# -- Loading package LPM_DEVICE_FAMILIES
+# -- Loading package LPM_HINT_EVALUATION
+# -- Compiling entity LPM_DIVIDE
+# -- Compiling architecture behave of lpm_divide
+# -- Compiling entity LPM_FF
+# -- Compiling architecture LPM_SYN of LPM_FF
+# -- Loading package LPM_DEVICE_FAMILIES
+# -- Compiling entity LPM_FIFO
+# -- Compiling architecture behavior of LPM_FIFO
+# -- Loading entity LPM_FIFO_DC_FEFIFO
+# -- Loading entity LPM_FIFO_DC_DFFPIPE
+# -- Loading entity LPM_FIFO_DC_ASYNC
+# -- Compiling entity LPM_FIFO_DC
+# -- Compiling architecture behavior of LPM_FIFO_DC
+# -- Compiling entity LPM_FIFO_DC_ASYNC
+# -- Compiling architecture behavior of LPM_FIFO_DC_ASYNC
+# -- Compiling entity LPM_FIFO_DC_DFFPIPE
+# -- Compiling architecture behavior of LPM_FIFO_DC_DFFPIPE
+# -- Compiling entity LPM_FIFO_DC_FEFIFO
+# -- Compiling architecture behavior of LPM_FIFO_DC_FEFIFO
+# -- Compiling package LPM_HINT_EVALUATION
+# -- Compiling package body LPM_HINT_EVALUATION
+# -- Loading package LPM_HINT_EVALUATION
+# -- Compiling entity LPM_INpad
+# -- Compiling architecture LPM_SYN of LPM_INpad
+# -- Compiling entity LPM_INV
+# -- Compiling architecture LPM_SYN of LPM_INV
+# -- Compiling entity LPM_LATCH
+# -- Compiling architecture LPM_SYN of LPM_LATCH
+# -- Loading package LPM_HINT_EVALUATION
+# -- Compiling entity LPM_MULT
+# -- Compiling architecture LPM_SYN of LPM_MULT
+# -- Compiling entity LPM_MUX
+# -- Compiling architecture LPM_SYN of LPM_MUX
+# -- Compiling entity LPM_OR
+# -- Compiling architecture LPM_SYN of LPM_OR
+# -- Compiling entity LPM_OUTpad
+# -- Compiling architecture LPM_SYN of LPM_OUTpad
+# -- Compiling entity LPM_RAM_DP
+# -- Compiling architecture LPM_SYN of LPM_RAM_DP
+# -- Compiling entity LPM_RAM_DQ
+# -- Compiling architecture LPM_SYN of lpm_ram_dq
+# -- Compiling entity LPM_RAM_IO
+# -- Compiling architecture LPM_SYN of lpm_ram_io
+# -- Compiling entity LPM_ROM
+# -- Compiling architecture LPM_SYN of lpm_rom
+# -- Compiling entity LPM_SHIFTREG
+# -- Compiling architecture LPM_SYN of LPM_SHIFTREG
+# -- Compiling entity LPM_XOR
+# -- Compiling architecture LPM_SYN of LPM_XOR
+# End time: 13:28:25 on May 13,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+project open /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/00_vsim/uart_7segment
+cd /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart
+# reading /home/pol/Program/altera/modelsim_ase/linuxaloem/../modelsim.ini
+vdel -all -lib gowin
+vlib gowin
+pwd
+# /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/vsim_uart
+cd ../00_vsim
+ls
+pwd
+# /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/00_vsim
+lscpu
+# Architecture:                       x86_64
+# CPU op-mode(s):                     32-bit, 64-bit
+# Address sizes:                      39 bits physical, 48 bits virtual
+# Byte Order:                         Little Endian
+# CPU(s):                             8
+# On-line CPU(s) list:                0-7
+# Vendor ID:                          GenuineIntel
+# Model name:                         Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz
+# CPU family:                         6
+# Model:                              142
+# Thread(s) per core:                 2
+# Core(s) per socket:                 4
+# Socket(s):                          1
+# Stepping:                           10
+# CPU max MHz:                        4000.0000
+# CPU min MHz:                        400.0000
+# BogoMIPS:                           3999.93
+# Flags:                              fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp vnmi md_clear flush_l1d arch_capabilities
+# Virtualization:                     VT-x
+# L1d cache:                          128 KiB (4 instances)
+# L1i cache:                          128 KiB (4 instances)
+# L2 cache:                           1 MiB (4 instances)
+# L3 cache:                           8 MiB (1 instance)
+# NUMA node(s):                       1
+# NUMA node0 CPU(s):                  0-7
+# Vulnerability Gather data sampling: Mitigation; Microcode
+# Vulnerability Itlb multihit:        KVM: Mitigation: VMX disabled
+# Vulnerability L1tf:                 Mitigation; PTE Inversion; VMX conditional cache flushes, SMT vulnerable
+# Vulnerability Mds:                  Mitigation; Clear CPU buffers; SMT vulnerable
+# Vulnerability Meltdown:             Mitigation; PTI
+# Vulnerability Mmio stale data:      Mitigation; Clear CPU buffers; SMT vulnerable
+# Vulnerability Retbleed:             Mitigation; IBRS
+# Vulnerability Spec rstack overflow: Not affected
+# Vulnerability Spec store bypass:    Mitigation; Speculative Store Bypass disabled via prctl
+# Vulnerability Spectre v1:           Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+# Vulnerability Spectre v2:           Mitigation; IBRS, IBPB conditional, STIBP conditional, RSB filling, PBRSB-eIBRS Not affected
+# Vulnerability Srbds:                Mitigation; Microcode
+# Vulnerability Tsx async abort:      Not affected
