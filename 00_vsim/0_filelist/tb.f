@@ -1,1 +1,1 @@
-2_testbench/testbench.v
+2_testbench/testbench.sv

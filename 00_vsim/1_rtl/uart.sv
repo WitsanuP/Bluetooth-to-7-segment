@@ -1,6 +1,7 @@
 module uart
 #(
     parameter DELAY_FRAMES = 234 // 27,000,000 (27Mhz) / 115200 Baud rate
+    
 )
 (
     input clk,
@@ -30,23 +31,24 @@ enum reg[2:0]{
     RX_STATE_READ_WAIT  = 2,
     RX_STATE_READ       = 3,
     RX_STATE_STOP_BIT   = 4
-} e_rxState
+} e_rxState;
 
-e_rxState rxState;
+reg rxState = e_rxState;
+// e_rxState = rxState;
 reg [12:0] rxCounter = 0;
 reg [7:0] dataIn = 0;
 reg [2:0] rxBitNumber = 0;
 reg byteReady = 0;
 
-localparam RX_STATE_IDLE = 0;
-localparam RX_STATE_START_BIT = 1;
-localparam RX_STATE_READ_WAIT = 2;
-localparam RX_STATE_READ = 3;
-localparam RX_STATE_STOP_BIT = 4;
+// localparam RX_STATE_IDLE = 0;
+// localparam RX_STATE_START_BIT = 1;
+// localparam RX_STATE_READ_WAIT = 2;
+// localparam RX_STATE_READ = 3;
+// localparam RX_STATE_STOP_BIT = 4;
 
 always @(posedge clk or negedge reset_n) begin
     if(~reset_n)begin
-        uart_rx == 1
+        
         rxState <= RX_STATE_IDLE;
         rxCounter <= 0;
         rxBitNumber <= 0;
@@ -54,6 +56,7 @@ always @(posedge clk or negedge reset_n) begin
     end
     case (rxState)
         RX_STATE_IDLE: begin
+            //wait for bit ready when uart_rx==0, start resive data
             if (uart_rx == 0) begin
                 rxState <= RX_STATE_START_BIT;
                 rxCounter <= 1;
@@ -96,7 +99,7 @@ end
 
 always @(posedge clk or negedge reset_n) begin
     if (~reset_n)begin
-        led <=0;
+        leds <=0;
     end
     if (byteReady) begin
         //led <= ~dataIn[5:0];
