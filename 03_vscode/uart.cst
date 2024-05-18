@@ -1,0 +1,29 @@
+IO_LOC  "btn1" 4;
+
+IO_LOC  "leds[7]" 34;
+
+IO_LOC  "leds[6]" 33;
+
+IO_LOC  "leds[5]" 30;
+
+IO_LOC  "leds[0]" 25;
+
+IO_LOC  "leds[1]" 26;
+
+IO_LOC  "leds[2]" 27;
+
+IO_LOC  "leds[3]" 28;
+
+IO_LOC  "leds[4]" 29;
+
+IO_LOC  "uart_tx" 17;
+IO_PORT "uart_tx" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+
+IO_LOC  "uart_rx" 18;
+IO_PORT "uart_rx" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+
+IO_LOC  "clk" 52;
+IO_PORT "clk" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+
+IO_LOC  "reset_n" 3;
+IO_PORT "reset_n" IO_TYPE=LVCMOS18;

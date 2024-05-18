@@ -1,0 +1,23 @@
+7 segment position number 
+
+ oo1oo
+o     o
+6     2
+o     o
+ oo7oo
+o     o
+5     4
+o     o
+ oo4oo
+        8
+
+------------------------------------------------
+// // setting UART port on linux
+// setting
+// // stty -F /dev/ttyUSB1 115200
+// // stty -F /dev/ttyUSB1 crtscts //setting RTS/CTS
+// view setting
+// // stty -a -F /dev/ttymxc2
+
+// echo -n -e '\x0' > /dev/ttyUSB1
+// cat /dev/ttyUSB1

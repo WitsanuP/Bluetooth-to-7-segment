@@ -38,7 +38,7 @@
       },
       "attributes": {
         "top": "00000000000000000000000000000001",
-        "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:1.1-109.10"
+        "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:1.1-109.10"
       },
       "ports": {
         "rst_n": {
@@ -47,7 +47,7 @@
         },
         "leds": {
           "direction": "output",
-          "bits": [ 1127363154, 1127428690, 1127297618, 223206758, 896, 896, 896 ]
+          "bits": [ 1127363154, 1127428690, 1127297618, 34155006, 896, 896, 896 ]
         },
         "clk": {
           "direction": "input",
@@ -67,7 +67,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R22C11_SLICE3",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:27.1-106.4|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:91.7-91.59"
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:27.1-106.4|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:91.7-91.59"
           },
           "port_directions": {
             "LSR": "input",
@@ -104,7 +104,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R23C11_SLICE1",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:27.1-106.4|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:91.7-91.59"
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:27.1-106.4|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:91.7-91.59"
           },
           "port_directions": {
             "LSR": "input",
@@ -141,7 +141,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R23C10_SLICE5",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:27.1-106.4|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:91.7-91.59"
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:27.1-106.4|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:91.7-91.59"
           },
           "port_directions": {
             "LSR": "input",
@@ -178,7 +178,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R23C10_SLICE2",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:27.1-106.4|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:91.7-91.59"
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:27.1-106.4|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:91.7-91.59"
           },
           "port_directions": {
             "LSR": "input",
@@ -215,7 +215,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R22C8_SLICE2",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:27.1-106.4|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:91.7-91.59"
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:27.1-106.4|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:91.7-91.59"
           },
           "port_directions": {
             "LSR": "input",
@@ -252,7 +252,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R22C10_SLICE5",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:27.1-106.4|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:91.7-91.59"
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:27.1-106.4|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:91.7-91.59"
           },
           "port_directions": {
             "LSR": "input",
@@ -289,7 +289,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R22C8_SLICE4",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:27.1-106.4|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:91.7-91.59"
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:27.1-106.4|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:91.7-91.59"
           },
           "port_directions": {
             "LSR": "input",
@@ -326,7 +326,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R22C9_SLICE4",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:27.1-106.4|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:91.7-91.59"
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:27.1-106.4|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:91.7-91.59"
           },
           "port_directions": {
             "LSR": "input",
@@ -363,7 +363,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R20C9_SLICE3",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:27.1-106.4|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:91.7-91.59"
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:27.1-106.4|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:91.7-91.59"
           },
           "port_directions": {
             "LSR": "input",
@@ -400,7 +400,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R20C9_SLICE4",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:27.1-106.4|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:91.7-91.59"
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:27.1-106.4|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:91.7-91.59"
           },
           "port_directions": {
             "LSR": "input",
@@ -437,7 +437,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R22C9_SLICE5",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:27.1-106.4|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:91.7-91.59"
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:27.1-106.4|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:91.7-91.59"
           },
           "port_directions": {
             "LSR": "input",
@@ -474,7 +474,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R22C8_SLICE5",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:27.1-106.4|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:91.7-91.59"
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:27.1-106.4|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:91.7-91.59"
           },
           "port_directions": {
             "LSR": "input",
@@ -511,7 +511,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R22C12_SLICE0",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:27.1-106.4|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:91.7-91.59"
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:27.1-106.4|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:91.7-91.59"
           },
           "port_directions": {
             "LSR": "input",
@@ -548,7 +548,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R24C8_SLICE2",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:27.1-106.4|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:91.7-91.59"
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:27.1-106.4|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:91.7-91.59"
           },
           "port_directions": {
             "LSR": "input",
@@ -585,7 +585,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R23C7_SLICE1",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:27.1-106.4|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:91.7-91.59"
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:27.1-106.4|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:91.7-91.59"
           },
           "port_directions": {
             "LSR": "input",
@@ -622,7 +622,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R22C7_SLICE3",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:27.1-106.4|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:91.7-91.59"
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:27.1-106.4|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:91.7-91.59"
           },
           "port_directions": {
             "LSR": "input",
@@ -659,7 +659,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R25C10_SLICE3",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:27.1-106.4|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:115.8-115.68"
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:27.1-106.4|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:115.8-115.68"
           },
           "port_directions": {
             "LSR": "input",
@@ -696,7 +696,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R25C10_SLICE5",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:27.1-106.4|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:115.8-115.68"
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:27.1-106.4|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:115.8-115.68"
           },
           "port_directions": {
             "LSR": "input",
@@ -733,7 +733,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R22C7_SLICE2",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:27.1-106.4|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:91.7-91.59"
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:27.1-106.4|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:91.7-91.59"
           },
           "port_directions": {
             "LSR": "input",
@@ -770,7 +770,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R20C11_SLICE1",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:27.1-106.4|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:91.7-91.59"
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:27.1-106.4|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:91.7-91.59"
           },
           "port_directions": {
             "LSR": "input",
@@ -807,7 +807,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R22C11_SLICE2",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:27.1-106.4|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:91.7-91.59"
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:27.1-106.4|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:91.7-91.59"
           },
           "port_directions": {
             "LSR": "input",
@@ -844,7 +844,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R20C11_SLICE4",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:27.1-106.4|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:91.7-91.59"
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:27.1-106.4|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:91.7-91.59"
           },
           "port_directions": {
             "LSR": "input",
@@ -881,7 +881,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R20C11_SLICE0",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:27.1-106.4|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:91.7-91.59"
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:27.1-106.4|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:91.7-91.59"
           },
           "port_directions": {
             "LSR": "input",
@@ -918,7 +918,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R20C10_SLICE4",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:27.1-106.4|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:91.7-91.59"
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:27.1-106.4|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:91.7-91.59"
           },
           "port_directions": {
             "LSR": "input",
@@ -955,7 +955,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R20C10_SLICE5",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:27.1-106.4|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:91.7-91.59"
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:27.1-106.4|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:91.7-91.59"
           },
           "port_directions": {
             "LSR": "input",
@@ -992,7 +992,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R20C11_SLICE5",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:27.1-106.4|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:91.7-91.59"
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:27.1-106.4|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:91.7-91.59"
           },
           "port_directions": {
             "LSR": "input",
@@ -1029,7 +1029,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R26C10_SLICE4",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:27.1-106.4|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:91.7-91.59"
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:27.1-106.4|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:91.7-91.59"
           },
           "port_directions": {
             "LSR": "input",
@@ -1066,7 +1066,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R26C9_SLICE2",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:27.1-106.4|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:115.8-115.68"
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:27.1-106.4|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:115.8-115.68"
           },
           "port_directions": {
             "LSR": "input",
@@ -2443,7 +2443,7 @@
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000110",
             "NEXTPNR_BEL": "R1C2_IOBA",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:4.11-4.16"
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:4.11-4.16"
           },
           "port_directions": {
             "O": "output",
@@ -2531,7 +2531,7 @@
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000110",
             "NEXTPNR_BEL": "R29C23_IOBA",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:7.22-7.26"
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:7.22-7.26"
           },
           "port_directions": {
             "GW9C_ALWAYS_LOW1": "input",
@@ -2634,7 +2634,7 @@
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000110",
             "NEXTPNR_BEL": "R29C13_IOBB",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:7.22-7.26"
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:7.22-7.26"
           },
           "port_directions": {
             "O": "output",
@@ -2663,7 +2663,7 @@
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000110",
             "NEXTPNR_BEL": "R29C13_IOBA",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:7.22-7.26"
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:7.22-7.26"
           },
           "port_directions": {
             "GW9C_ALWAYS_LOW1": "input",
@@ -2694,7 +2694,7 @@
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000110",
             "NEXTPNR_BEL": "R29C11_IOBB",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:7.22-7.26"
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:7.22-7.26"
           },
           "port_directions": {
             "O": "output",
@@ -2723,7 +2723,7 @@
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000110",
             "NEXTPNR_BEL": "R29C11_IOBA",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:7.22-7.26"
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:7.22-7.26"
           },
           "port_directions": {
             "GW9C_ALWAYS_LOW1": "input",
@@ -2754,7 +2754,7 @@
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000110",
             "NEXTPNR_BEL": "R29C8_IOBB",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:7.22-7.26"
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:7.22-7.26"
           },
           "port_directions": {
             "O": "output",
@@ -2783,7 +2783,7 @@
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000110",
             "NEXTPNR_BEL": "R29C8_IOBA",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:7.22-7.26"
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:7.22-7.26"
           },
           "port_directions": {
             "GW9C_ALWAYS_LOW1": "input",
@@ -4208,7 +4208,7 @@
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000110",
             "NEXTPNR_BEL": "R17C47_IOBA",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:3.11-3.14",
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:3.11-3.14",
             "&IO_TYPE=LVCMOS33": "00000000000000000000000000000001",
             "&PULL_MODE=UP": "00000000000000000000000000000001"
           },
@@ -5383,7 +5383,7 @@
           "bits": [ 3882414 ] ,
           "attributes": {
             "ROUTING": " ",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:39.18-39.32|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:39.18-39.32|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:882.25-882.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
         },
@@ -5400,7 +5400,7 @@
           "bits": [ 3882410 ] ,
           "attributes": {
             "ROUTING": " ",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:39.18-39.32|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:39.18-39.32|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:882.25-882.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
         },
@@ -5498,7 +5498,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "0 ",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:39.18-39.32|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:39.18-39.32|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:882.25-882.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
         },
@@ -5507,7 +5507,7 @@
           "bits": [ 3882376 ] ,
           "attributes": {
             "ROUTING": "R26C10_OF0;;1;R26C10_S20;R26C10_OF0_S200;1;R26C10_A4;R26C10_S200_A4;1",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:27.1-106.4"
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:27.1-106.4"
           }
         },
         "leds_OBUF_O_I_DFFC_Q_D_LUT4_F_3_I1_DFFCE_Q_CE_LUT4_F_I0_MUX2_LUT5_O_1_I1": {
@@ -5523,7 +5523,7 @@
           "bits": [ 3882448 ] ,
           "attributes": {
             "ROUTING": " ",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:39.18-39.32|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:39.18-39.32|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:882.25-882.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
         },
@@ -5532,7 +5532,7 @@
           "bits": [ 3882451 ] ,
           "attributes": {
             "ROUTING": " ",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:39.18-39.32|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:39.18-39.32|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:882.25-882.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
         },
@@ -5633,7 +5633,7 @@
           "bits": [ 3882453 ] ,
           "attributes": {
             "ROUTING": " ",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:39.18-39.32|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:39.18-39.32|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:882.25-882.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
         },
@@ -5747,7 +5747,7 @@
           "bits": [ 3882303 ] ,
           "attributes": {
             "ROUTING": " ",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:43.29-43.45|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:43.29-43.45|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:882.25-882.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
         },
@@ -5765,7 +5765,7 @@
           "bits": [ 3882300 ] ,
           "attributes": {
             "ROUTING": " ",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:43.29-43.45|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:43.29-43.45|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:882.25-882.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
         },
@@ -5784,7 +5784,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "0 ",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:43.29-43.45|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:43.29-43.45|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:882.25-882.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
         },
@@ -5793,7 +5793,7 @@
           "bits": [ 3882296 ] ,
           "attributes": {
             "ROUTING": " ",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:43.29-43.45|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:43.29-43.45|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:882.25-882.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
         },
@@ -5868,7 +5868,7 @@
           "bits": [ 3882279 ] ,
           "attributes": {
             "ROUTING": " ",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:43.29-43.45|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:43.29-43.45|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:882.25-882.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
         },
@@ -5902,7 +5902,7 @@
           "bits": [ 3882272 ] ,
           "attributes": {
             "ROUTING": " ",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:43.29-43.45|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:43.29-43.45|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:882.25-882.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
         },
@@ -5920,7 +5920,7 @@
           "bits": [ 3882269 ] ,
           "attributes": {
             "ROUTING": " ",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:43.29-43.45|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:43.29-43.45|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:882.25-882.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
         },
@@ -5929,7 +5929,7 @@
           "bits": [ 3882267 ] ,
           "attributes": {
             "ROUTING": "R20C11_OF2;;1;R20C11_S10;R20C11_OF2_S100;1;R20C11_W21;R20C11_S100_W210;1;R20C11_A5;R20C11_W210_A5;1",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:27.1-106.4"
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:27.1-106.4"
           }
         },
         "clk_IBUF_I_O_DFFC_CLK_Q_ALU_I1_3_SUM[15]": {
@@ -5937,7 +5937,7 @@
           "bits": [ 3882265 ] ,
           "attributes": {
             "ROUTING": "R20C10_OF2;;1;R20C10_N10;R20C10_OF2_N100;1;R20C10_S20;R20C10_N100_S200;1;R20C10_A5;R20C10_S200_A5;1",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:27.1-106.4"
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:27.1-106.4"
           }
         },
         "clk_IBUF_I_O_DFFC_CLK_Q_ALU_I1_3_SUM_MUX2_LUT5_O_7_I1": {
@@ -5970,7 +5970,7 @@
           "bits": [ 3882258 ] ,
           "attributes": {
             "ROUTING": " ",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:43.29-43.45|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:43.29-43.45|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:882.25-882.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
         },
@@ -5979,7 +5979,7 @@
           "bits": [ 3882256 ] ,
           "attributes": {
             "ROUTING": " ",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:43.29-43.45|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:43.29-43.45|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:882.25-882.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
         },
@@ -6013,7 +6013,7 @@
           "bits": [ 3882249 ] ,
           "attributes": {
             "ROUTING": " ",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:43.29-43.45|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:43.29-43.45|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:882.25-882.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
         },
@@ -6031,7 +6031,7 @@
           "bits": [ 3882246 ] ,
           "attributes": {
             "ROUTING": " ",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:43.29-43.45|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:43.29-43.45|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:882.25-882.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
         },
@@ -6040,7 +6040,7 @@
           "bits": [ 3882245 ] ,
           "attributes": {
             "ROUTING": " ",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:43.29-43.45|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:43.29-43.45|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:882.25-882.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
         },
@@ -6058,7 +6058,7 @@
           "bits": [ 3882242 ] ,
           "attributes": {
             "ROUTING": "R20C10_OF0;;1;R20C10_E10;R20C10_OF0_E100;1;R20C10_A4;R20C10_E100_A4;1",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:27.1-106.4"
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:27.1-106.4"
           }
         },
         "clk_IBUF_I_O_DFFC_CLK_7_Q[2]": {
@@ -6075,7 +6075,7 @@
           "bits": [ 3882239 ] ,
           "attributes": {
             "ROUTING": "R21C11_F0;;1;R21C11_S13;R21C11_F0_S130;1;R21C11_N25;R21C11_S130_N250;1;R20C11_A0;R20C11_N251_A0;1",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:27.1-106.4"
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:27.1-106.4"
           }
         },
         "clk_IBUF_I_O_DFFC_CLK_7_Q[1]": {
@@ -6092,7 +6092,7 @@
           "bits": [ 3882236 ] ,
           "attributes": {
             "ROUTING": "R20C9_OF0;;1;R20C9_E10;R20C9_OF0_E100;1;R20C10_E24;R20C10_E101_E240;1;R20C11_X07;R20C11_E241_X07;1;R20C11_A4;R20C11_X07_A4;1",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:27.1-106.4"
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:27.1-106.4"
           }
         },
         "clk_IBUF_I_O_DFFC_CLK_7_Q[0]": {
@@ -6109,7 +6109,7 @@
           "bits": [ 3882233 ] ,
           "attributes": {
             "ROUTING": "R23C9_OF2;;1;R23C9_N10;R23C9_OF2_N100;1;R22C9_E24;R22C9_N101_E240;1;R22C11_X07;R22C11_E242_X07;1;R22C11_A2;R22C11_X07_A2;1",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:27.1-106.4"
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:27.1-106.4"
           }
         },
         "clk_IBUF_I_O_DFFC_CLK_Q[3]": {
@@ -6126,7 +6126,7 @@
           "bits": [ 3882230 ] ,
           "attributes": {
             "ROUTING": "R21C11_F3;;1;R21C11_N23;R21C11_F3_N230;1;R20C11_X02;R20C11_N231_X02;1;R20C11_A1;R20C11_X02_A1;1",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:27.1-106.4"
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:27.1-106.4"
           }
         },
         "clk_IBUF_I_O_DFFC_CLK_Q_ALU_I1_3_SUM[0]": {
@@ -6134,7 +6134,7 @@
           "bits": [ 3882228 ] ,
           "attributes": {
             "ROUTING": "R22C7_OF0;;1;R22C7_E20;R22C7_OF0_E200;1;R22C7_A2;R22C7_E200_A2;1",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:27.1-106.4"
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:27.1-106.4"
           }
         },
         "clk_IBUF_I_O_DFFC_CLK_7_Q_ALU_I1_SUM[1]": {
@@ -6177,7 +6177,7 @@
           "bits": [ 3882205 ] ,
           "attributes": {
             "ROUTING": " ",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:43.29-43.45|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:43.29-43.45|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:882.25-882.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
         },
@@ -6186,7 +6186,7 @@
           "bits": [ 3882203 ] ,
           "attributes": {
             "ROUTING": " ",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:43.29-43.45|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:43.29-43.45|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:882.25-882.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
         },
@@ -6195,7 +6195,7 @@
           "bits": [ 3882201 ] ,
           "attributes": {
             "ROUTING": " ",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:43.29-43.45|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:43.29-43.45|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:882.25-882.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
         },
@@ -6213,7 +6213,7 @@
           "bits": [ 3882198 ] ,
           "attributes": {
             "ROUTING": "R21C8_F2;;1;R21C8_W13;R21C8_F2_W130;1;R21C7_S27;R21C7_W131_S270;1;R22C7_A3;R22C7_S271_A3;1",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:27.1-106.4"
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:27.1-106.4"
           }
         },
         "clk_IBUF_I_O_DFFC_CLK_22_Q[1]": {
@@ -6230,7 +6230,7 @@
           "bits": [ 3882195 ] ,
           "attributes": {
             "ROUTING": "R21C8_F3;;1;R21C8_EW10;R21C8_F3_EW10;1;R21C7_S25;R21C7_W111_S250;1;R23C7_A1;R23C7_S252_A1;1",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:27.1-106.4"
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:27.1-106.4"
           }
         },
         "clk_IBUF_I_O_DFFC_CLK_22_Q[0]": {
@@ -6247,7 +6247,7 @@
           "bits": [ 3882192 ] ,
           "attributes": {
             "ROUTING": "R21C8_F4;;1;R21C8_S24;R21C8_F4_S240;1;R23C8_S25;R23C8_S242_S250;1;R24C8_A2;R24C8_S251_A2;1",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:27.1-106.4"
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:27.1-106.4"
           }
         },
         "clk_IBUF_I_O_DFFC_CLK_Q[2]": {
@@ -6264,7 +6264,7 @@
           "bits": [ 3882189 ] ,
           "attributes": {
             "ROUTING": "R21C11_F4;;1;R21C11_E13;R21C11_F4_E130;1;R21C12_S27;R21C12_E131_S270;1;R22C12_A0;R22C12_S271_A0;1",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:27.1-106.4"
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:27.1-106.4"
           }
         },
         "clk_IBUF_I_O_DFFC_CLK_7_Q_ALU_I1_SUM[0]": {
@@ -6289,7 +6289,7 @@
           "bits": [ 3882179 ] ,
           "attributes": {
             "ROUTING": " ",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:43.29-43.45|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:43.29-43.45|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:882.25-882.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
         },
@@ -6323,7 +6323,7 @@
           "bits": [ 3882172 ] ,
           "attributes": {
             "ROUTING": " ",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:43.29-43.45|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:43.29-43.45|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:882.25-882.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
         },
@@ -6357,7 +6357,7 @@
           "bits": [ 3882165 ] ,
           "attributes": {
             "ROUTING": " ",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:43.29-43.45|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:43.29-43.45|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:882.25-882.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
         },
@@ -6366,7 +6366,7 @@
           "bits": [ 3882163 ] ,
           "attributes": {
             "ROUTING": " ",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:43.29-43.45|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:43.29-43.45|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:882.25-882.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
         },
@@ -6384,7 +6384,7 @@
           "bits": [ 3882160 ] ,
           "attributes": {
             "ROUTING": "R21C8_F5;;1;R21C8_S10;R21C8_F5_S100;1;R22C8_A5;R22C8_S101_A5;1",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:27.1-106.4"
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:27.1-106.4"
           }
         },
         "clk_IBUF_I_O_DFFC_CLK_19_Q[2]": {
@@ -6401,7 +6401,7 @@
           "bits": [ 3882157 ] ,
           "attributes": {
             "ROUTING": "R22C9_OF6;;1;R22C9_E13;R22C9_OF6_E130;1;R22C10_S23;R22C10_E131_S230;1;R23C10_W23;R23C10_S231_W230;1;R23C9_N23;R23C9_W231_N230;1;R22C9_A5;R22C9_N231_A5;1",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:27.1-106.4"
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:27.1-106.4"
           }
         },
         "clk_IBUF_I_O_DFFC_CLK_19_Q[1]": {
@@ -6418,7 +6418,7 @@
           "bits": [ 3882154 ] ,
           "attributes": {
             "ROUTING": "R20C8_OF0;;1;R20C8_E20;R20C8_OF0_E200;1;R20C9_X05;R20C9_E201_X05;1;R20C9_A4;R20C9_X05_A4;1",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:27.1-106.4"
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:27.1-106.4"
           }
         },
         "clk_IBUF_I_O_DFFC_CLK_19_Q[0]": {
@@ -6435,7 +6435,7 @@
           "bits": [ 3882151 ] ,
           "attributes": {
             "ROUTING": "R21C9_F2;;1;R21C9_N22;R21C9_F2_N220;1;R20C9_X07;R20C9_N221_X07;1;R20C9_A3;R20C9_X07_A3;1",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:27.1-106.4"
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:27.1-106.4"
           }
         },
         "clk_IBUF_I_O_DFFC_CLK_15_Q_LUT4_I0_F": {
@@ -6555,7 +6555,7 @@
           "bits": [ 3882098 ] ,
           "attributes": {
             "ROUTING": " ",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:43.29-43.45|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:43.29-43.45|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:882.25-882.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
         },
@@ -6564,7 +6564,7 @@
           "bits": [ 3882097 ] ,
           "attributes": {
             "ROUTING": " ",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:43.29-43.45|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:43.29-43.45|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:882.25-882.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
         },
@@ -6573,7 +6573,7 @@
           "bits": [ 3882095 ] ,
           "attributes": {
             "ROUTING": " ",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:43.29-43.45|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:43.29-43.45|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:882.25-882.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
         },
@@ -6605,7 +6605,7 @@
           "bits": [ 3882090 ] ,
           "attributes": {
             "ROUTING": " ",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:43.29-43.45|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:43.29-43.45|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:882.25-882.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
         },
@@ -6614,7 +6614,7 @@
           "bits": [ 3882089 ] ,
           "attributes": {
             "ROUTING": " ",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:43.29-43.45|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:43.29-43.45|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/home/pol/Program/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:882.25-882.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
         },
@@ -6632,7 +6632,7 @@
           "bits": [ 3882086 ] ,
           "attributes": {
             "ROUTING": "R21C9_F3;;1;R21C9_S23;R21C9_F3_S230;1;R22C9_A4;R22C9_S231_A4;1",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:27.1-106.4"
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:27.1-106.4"
           }
         },
         "clk_IBUF_I_O_DFFC_CLK_15_Q[2]": {
@@ -6649,7 +6649,7 @@
           "bits": [ 3882083 ] ,
           "attributes": {
             "ROUTING": "R22C9_OF2;;1;R22C9_EW10;R22C9_OF2_EW10;1;R22C8_W21;R22C8_W111_W210;1;R22C8_A4;R22C8_W210_A4;1",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:27.1-106.4"
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:27.1-106.4"
           }
         },
         "clk_IBUF_I_O_DFFC_CLK_15_Q[1]": {
@@ -6666,7 +6666,7 @@
           "bits": [ 3882080 ] ,
           "attributes": {
             "ROUTING": "R20C8_OF2;;1;R20C8_E22;R20C8_OF2_E220;1;R20C10_S22;R20C10_E222_S220;1;R22C10_X05;R22C10_S222_X05;1;R22C10_A5;R22C10_X05_A5;1",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:27.1-106.4"
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:27.1-106.4"
           }
         },
         "clk_IBUF_I_O_DFFC_CLK_15_Q[0]": {
@@ -6683,7 +6683,7 @@
           "bits": [ 3882077 ] ,
           "attributes": {
             "ROUTING": "R21C8_OF6;;1;R21C8_S26;R21C8_OF6_S260;1;R22C8_X05;R22C8_S261_X05;1;R22C8_A2;R22C8_X05_A2;1",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:27.1-106.4"
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:27.1-106.4"
           }
         },
         "clk_IBUF_I_O_DFFC_CLK_9_Q[3]": {
@@ -6700,7 +6700,7 @@
           "bits": [ 3882074 ] ,
           "attributes": {
             "ROUTING": "R22C10_OF2;;1;R22C10_S10;R22C10_OF2_S100;1;R23C10_E20;R23C10_S101_E200;1;R23C10_A2;R23C10_E200_A2;1",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:27.1-106.4"
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:27.1-106.4"
           }
         },
         "clk_IBUF_I_O_DFFC_CLK_9_Q[2]": {
@@ -6717,7 +6717,7 @@
           "bits": [ 3882071 ] ,
           "attributes": {
             "ROUTING": "R22C8_OF0;;1;R22C8_SN10;R22C8_OF0_SN10;1;R23C8_E21;R23C8_S111_E210;1;R23C10_X06;R23C10_E212_X06;1;R23C10_A5;R23C10_X06_A5;1",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:27.1-106.4"
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:27.1-106.4"
           }
         },
         "clk_IBUF_I_O_DFFC_CLK_Q[1]": {
@@ -6734,7 +6734,7 @@
           "bits": [ 3882068 ] ,
           "attributes": {
             "ROUTING": "R23C10_OF0;;1;R23C10_E10;R23C10_OF0_E100;1;R23C11_N20;R23C11_E101_N200;1;R23C11_A1;R23C11_N200_A1;1",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:27.1-106.4"
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:27.1-106.4"
           }
         },
         "clk_IBUF_I_O_DFFC_CLK_Q[0]": {
@@ -6751,7 +6751,7 @@
           "bits": [ 3882064 ] ,
           "attributes": {
             "ROUTING": "R22C11_OF0;;1;R22C11_E20;R22C11_OF0_E200;1;R22C11_A3;R22C11_E200_A3;1",
-            "src": "/home/pol/Documents/KMITL/year3/project1/test-segment/test-segment.v:27.1-106.4"
+            "src": "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/test-segment/test-segment.v:27.1-106.4"
           }
         },
         "rst_n_IBUF_I_O_LUT1_I0_F": {
