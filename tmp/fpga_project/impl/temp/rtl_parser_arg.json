@@ -1,0 +1,25 @@
+{
+ "Device" : "GW1NR-9C",
+ "Files" : [
+  {
+   "Path" : "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/tmp/fpga_project/src/uart.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/tmp/fpga_project/src/PLL.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/tmp/fpga_project/src/top.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/tmp/fpga_project/impl/temp/rtl_parser.result",
+ "Top" : "",
+ "VerilogStd" : "sysv",
+ "VhdlStd" : "vhdl_93"
+}

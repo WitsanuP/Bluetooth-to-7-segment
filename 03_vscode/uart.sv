@@ -105,23 +105,24 @@ end
 always @(posedge clk or negedge reset_n) begin
     if (~reset_n)begin
         leds <=0;
-    end
-    if (byteReady) begin
-        //led <= ~dataIn[5:0];
-        leds <= dataIn;
-        // case (dataIn)
-        //     0       :   leds <= _0;
-        //     1       :   leds <= _1; 
-        //     2       :   leds <= _2;
-        //     3       :   leds <= _3;
-        //     4       :   leds <= _4;
-        //     5       :   leds <= _5;
-        //     6       :   leds <= _6; 
-        //     7       :   leds <= _7;
-        //     8       :   leds <= _8;
-        //     9       :   leds <= _9;
-        //     default :   leds <= _5;
-        // endcase
+    end else begin
+        if (byteReady) begin
+            //led <= ~dataIn[5:0];
+            leds <= dataIn;
+            // case (dataIn)
+            //     0       :   leds <= _0;
+            //     1       :   leds <= _1; 
+            //     2       :   leds <= _2;
+            //     3       :   leds <= _3;
+            //     4       :   leds <= _4;
+            //     5       :   leds <= _5;
+            //     6       :   leds <= _6; 
+            //     7       :   leds <= _7;
+            //     8       :   leds <= _8;
+            //     9       :   leds <= _9;
+            //     default :   leds <= _5;
+            // endcase
+        end
     end
 end
 

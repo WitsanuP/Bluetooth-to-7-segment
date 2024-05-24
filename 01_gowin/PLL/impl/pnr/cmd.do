@@ -1,0 +1,12 @@
+-d /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/01_gowin/PLL/impl/gwsynthesis/PLL.vg
+-p GW1NR-9C-QFN88P-6
+-pn GW1NR-LV9QN88PC6/I5
+-cst /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/01_gowin/PLL/src/PLL.cst
+-cfg /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/01_gowin/PLL/impl/pnr/device.cfg
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-correct_hold 1
+-route_maxfan 23

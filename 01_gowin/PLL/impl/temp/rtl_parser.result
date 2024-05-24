@@ -1,0 +1,20 @@
+[
+ {
+  "InstFile" : "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/01_gowin/PLL/top.v",
+  "InstLine" : 1,
+  "InstName" : "top",
+  "ModuleFile" : "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/01_gowin/PLL/top.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/01_gowin/PLL/top.v",
+    "InstLine" : 7,
+    "InstName" : "myPll",
+    "ModuleFile" : "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/01_gowin/PLL/src/gowin_rpll/gowin_rpll.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_rPLL"
+   }
+  ]
+ }
+]

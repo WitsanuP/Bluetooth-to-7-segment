@@ -1,0 +1,28 @@
+[
+ {
+  "InstFile" : "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/tmp/fpga_project/src/top.v",
+  "InstLine" : 1,
+  "InstName" : "top",
+  "ModuleFile" : "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/tmp/fpga_project/src/top.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/tmp/fpga_project/src/top.v",
+    "InstLine" : 13,
+    "InstName" : "myPll",
+    "ModuleFile" : "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/tmp/fpga_project/src/PLL.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_rPLL"
+   },
+   {
+    "InstFile" : "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/tmp/fpga_project/src/top.v",
+    "InstLine" : 35,
+    "InstName" : "uart_m",
+    "ModuleFile" : "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/tmp/fpga_project/src/uart.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "uart"
+   }
+  ]
+ }
+]

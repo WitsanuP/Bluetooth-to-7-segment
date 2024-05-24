@@ -1,5 +1,6 @@
+`include "prim_sim.v"
 `include "uart.v"
-`timescale 1ps/1ps
+//`timescale 1ps/1ps
 
 module testbench();
 enum reg [1:0]{

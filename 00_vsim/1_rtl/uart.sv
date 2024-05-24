@@ -1,31 +1,32 @@
 module uart
 #(
-    parameter DELAY_FRAMES = 234 // 27,000,000 (27Mhz) / 115200 Baud rate
-    
+    // parameter DELAY_FRAMES = 234 // 27,000,000 (27Mhz) / 115200 Baud rate
+    parameter DELAY_FRAMES = 260 // 30,000,000 (27Mhz) / 115200 Baud rate
 )
-(
+(   
     input clk,
     input uart_rx,
     input reset_n,
+    input btn1,
     output uart_tx,
-    output reg [6:0] leds,
-    input btn1
+    output reg [7:0] leds=0
+    
 );
 
-localparam _0 = 7'b011_1111;
-localparam _1 = 7'b000_1001;
-localparam _2 = 7'b101_1110;
-localparam _3 = 7'b101_1011;
-localparam _4 = 7'b110_1001;
-localparam _5 = 7'b111_0011;
-localparam _6 = 7'b111_0111;
-localparam _7 = 7'b001_1001;
-localparam _8 = 7'b111_1111;
-localparam _9 = 7'b111_1011;
+// localparam _0 = 7'b011_1111;
+// localparam _1 = 7'b000_1001;
+// localparam _2 = 7'b101_1110;
+// localparam _3 = 7'b101_1011;
+// localparam _4 = 7'b110_1001;
+// localparam _5 = 7'b111_0011;
+// localparam _6 = 7'b111_0111;
+// localparam _7 = 7'b001_1001;
+// localparam _8 = 7'b111_1111;
+// localparam _9 = 7'b111_1011;
 
 localparam HALF_DELAY_WAIT = (DELAY_FRAMES / 2);
 
-enum reg[2:0]{
+typedef enum reg[2:0]{
     RX_STATE_IDLE       = 0,
     RX_STATE_START_BIT  = 1,
     RX_STATE_READ_WAIT  = 2,
@@ -33,89 +34,100 @@ enum reg[2:0]{
     RX_STATE_STOP_BIT   = 4
 } e_rxState;
 
-reg rxState = e_rxState;
-// e_rxState = rxState;
-reg [12:0] rxCounter = 0;
-reg [7:0] dataIn = 0;
-reg [2:0] rxBitNumber = 0;
-reg byteReady = 0;
-
+e_rxState rxState ;
 // localparam RX_STATE_IDLE = 0;
 // localparam RX_STATE_START_BIT = 1;
 // localparam RX_STATE_READ_WAIT = 2;
 // localparam RX_STATE_READ = 3;
 // localparam RX_STATE_STOP_BIT = 4;
 
+
+reg [12:0] rxCounter = 0;
+reg [7:0] dataIn = 0;
+reg [2:0] rxBitNumber = 0;
+reg byteReady = 0;
+reg debug_readuart = 0;
+
 always @(posedge clk or negedge reset_n) begin
     if(~reset_n)begin
-        
         rxState <= RX_STATE_IDLE;
         rxCounter <= 0;
         rxBitNumber <= 0;
         byteReady <= 0;
+        // uart_rx <= 1;
+        dataIn = 0;
     end
-    case (rxState)
-        RX_STATE_IDLE: begin
-            //wait for bit ready when uart_rx==0, start resive data
-            if (uart_rx == 0) begin
-                rxState <= RX_STATE_START_BIT;
-                rxCounter <= 1;
-                rxBitNumber <= 0;
-                byteReady <= 0;
+    else begin
+        case (rxState)
+            RX_STATE_IDLE: begin
+                //wait for bit ready when uart_rx==0, start resive data
+                if (uart_rx == 0) begin
+
+                    rxState <= RX_STATE_START_BIT;
+                    rxCounter <= 1;
+                    rxBitNumber <= 0;
+                    byteReady <= 0;
+                    
+                end
+            end 
+            RX_STATE_START_BIT: begin
+                if (rxCounter == HALF_DELAY_WAIT) begin
+                    rxState <= RX_STATE_READ_WAIT;
+                    rxCounter <= 1;
+                end else 
+                    rxCounter <= rxCounter + 1;
             end
-        end 
-        RX_STATE_START_BIT: begin
-            if (rxCounter == HALF_DELAY_WAIT) begin
-                rxState <= RX_STATE_READ_WAIT;
-                rxCounter <= 1;
-            end else 
+            RX_STATE_READ_WAIT: begin
                 rxCounter <= rxCounter + 1;
-        end
-        RX_STATE_READ_WAIT: begin
-            rxCounter <= rxCounter + 1;
-            if ((rxCounter + 1) == DELAY_FRAMES) begin
-                rxState <= RX_STATE_READ;
+                debug_readuart <= 0;
+                if ((rxCounter + 1) == DELAY_FRAMES) begin
+                    rxState <= RX_STATE_READ;
+                end
             end
-        end
-        RX_STATE_READ: begin
-            rxCounter <= 1;
-            dataIn <= {uart_rx, dataIn[7:1]};
-            rxBitNumber <= rxBitNumber + 1;
-            if (rxBitNumber == 3'b111)
-                rxState <= RX_STATE_STOP_BIT;
-            else
-                rxState <= RX_STATE_READ_WAIT;
-        end
-        RX_STATE_STOP_BIT: begin
-            rxCounter <= rxCounter + 1;
-            if ((rxCounter + 1) == DELAY_FRAMES) begin
-                rxState <= RX_STATE_IDLE;
-                rxCounter <= 0;
-                byteReady <= 1;
+            RX_STATE_READ: begin
+                rxCounter <= 1;
+                dataIn <= {uart_rx, dataIn[7:1]};
+                debug_readuart <= 1;
+                rxBitNumber <= rxBitNumber + 1;
+                if (rxBitNumber == 3'b111)
+                    rxState <= RX_STATE_STOP_BIT;
+                else
+                    rxState <= RX_STATE_READ_WAIT;
             end
-        end
-    endcase
+            RX_STATE_STOP_BIT: begin
+                rxCounter <= rxCounter + 1;
+                debug_readuart <= 0;
+                if ((rxCounter + 1) == DELAY_FRAMES) begin
+                    rxState <= RX_STATE_IDLE;
+                    rxCounter <= 0;
+                    byteReady <= 1;
+                end
+            end
+        endcase
+    end
 end
 
 always @(posedge clk or negedge reset_n) begin
     if (~reset_n)begin
-        leds <=0;
-    end
-    if (byteReady) begin
-        //led <= ~dataIn[5:0];
-        case (dataIn)
-            0       :   leds <= _0;
-            1       :   leds <= _1; 
-            2       :   leds <= _2;
-            3       :   leds <= _3;
-            4       :   leds <= _4;
-            5       :   leds <= _5;
-            6       :   leds <= _6; 
-            7       :   leds <= _7;
-            8       :   leds <= _8;
-            9       :   leds <= _9;
-            default :   leds <= _5;
-        endcase
+        leds <= 0;
+    end else begin
+        if (byteReady) begin
+            //led <= ~dataIn[5:0];
+            leds <= dataIn;
+            // case (dataIn)
+            //     0       :   leds <= _0;
+            //     1       :   leds <= _1; 
+            //     2       :   leds <= _2;
+            //     3       :   leds <= _3;
+            //     4       :   leds <= _4;
+            //     5       :   leds <= _5;
+            //     6       :   leds <= _6; 
+            //     7       :   leds <= _7;
+            //     8       :   leds <= _8;
+            //     9       :   leds <= _9;
+            //     default :   leds <= _5;
+            // endcase
+        end
     end
 end
 

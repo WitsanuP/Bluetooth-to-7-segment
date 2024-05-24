@@ -3,10 +3,13 @@ vlog    -file ./0_filelist/rtl.f \
 
 vsim work.testbench -L gowin
 
-add wave -position insertpoint sim:/testbench/u/clk
-add wave -position insertpoint sim:/testbench/u/uart_rx
-add wave -position insertpoint sim:/testbench/u/reset_n
-add wave -position insertpoint sim:/testbench/u/uart_tx
+add wave -position insertpoint /testbench/dut/uart_m/uart_tx
+add wave -position insertpoint /testbench/dut/uart_m/leds
+add wave -position insertpoint /testbench/dut/uart_m/btn1
+add wave -position insertpoint /testbench/dut/uart_m/clk
+add wave -position insertpoint /testbench/dut/uart_m/uart_rx
+add wave -position insertpoint /testbench/dut/uart_m/reset_n
+add wave -position end  sim:/testbench/dut/uart_m/dataIn
 
 restart -force
 

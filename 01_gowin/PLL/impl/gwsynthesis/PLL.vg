@@ -1,0 +1,65 @@
+//
+//Written by GowinSynthesis
+//Product Version "V1.9.9 Beta-4 Education"
+//Mon May 20 15:22:01 2024
+
+//Source file index table:
+//file0 "\/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/01_gowin/PLL/src/gowin_rpll/gowin_rpll.v"
+//file1 "\/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/01_gowin/PLL/top.v"
+`pragma protect begin_protected
+`pragma protect version="2.3"
+`pragma protect author="default"
+`pragma protect author_info="default"
+`pragma protect encrypt_agent="GOWIN"
+`pragma protect encrypt_agent_info="GOWIN Encrypt Version 2.3"
+
+`pragma protect encoding=(enctype="base64", line_length=76, bytes=256)
+`pragma protect key_keyowner="GOWIN",key_keyname="GWK2023-09",key_method="rsa"
+`pragma protect key_block
+LLogJTc99IGUlWIpFEvp0UOpjcLa6ACMrlF+WtBcYoimQydVgErn4R85Q92sJI1rBq4nkPjWryTz
+g7Rm+hGy8kSfMelihiy7qNvcScih+4s/utWVhWuqY2Y0EknOZT7DqggUkpNuzKpsgPrF1lG9rxvL
+Gkp/Fqzys8FdeOP+M4rf5rtGhWS5eDiSJvcqTYaSvQ/VGyxy89zyiDQMGSg5AvYNJ1A/EN6HT4Q8
+rNT6aQjrGCC2J7f2zSjwhK2vgtgexJ85qsGCUqisVDwqleO+TDaYtPZupzjByNJjAgr8R3/7kFm1
+7BoYRllcLzOVjdjhg+zwGQXIOr8WWePqrLqokQ==
+
+`pragma protect encoding=(enctype="base64", line_length=76, bytes=1968)
+`pragma protect data_keyowner="default-ip-vendor"
+`pragma protect data_keyname="default-ip-key"
+`pragma protect data_method="aes128-cfb"
+`pragma protect data_block
+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
+`pragma protect end_protected

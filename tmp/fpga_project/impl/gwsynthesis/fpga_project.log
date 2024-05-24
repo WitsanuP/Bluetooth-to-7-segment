@@ -1,0 +1,42 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file '/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/tmp/fpga_project/src/uart.sv'
+WARN  (EX2478) : Non-net output port 'leds' cannot be initialized at declaration in SystemVerilog mode("/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/tmp/fpga_project/src/uart.sv":12)
+Analyzing Verilog file '/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/tmp/fpga_project/src/PLL.v'
+Analyzing Verilog file '/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/tmp/fpga_project/src/top.v'
+Compiling module 'top'("/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/tmp/fpga_project/src/top.v":1)
+Compiling module 'Gowin_rPLL'("/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/tmp/fpga_project/src/PLL.v":10)
+Compiling module 'uart'("/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/tmp/fpga_project/src/uart.sv":1)
+Extracting RAM for identifier 'testMemory'("/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/tmp/fpga_project/src/uart.sv":144)
+WARN  (EX3791) : Expression size 14 truncated to fit in target size 13("/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/tmp/fpga_project/src/uart.sv":78)
+WARN  (EX3791) : Expression size 14 truncated to fit in target size 13("/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/tmp/fpga_project/src/uart.sv":81)
+WARN  (EX3791) : Expression size 4 truncated to fit in target size 3("/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/tmp/fpga_project/src/uart.sv":91)
+WARN  (EX3791) : Expression size 14 truncated to fit in target size 13("/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/tmp/fpga_project/src/uart.sv":98)
+WARN  (EX3791) : Expression size 26 truncated to fit in target size 25("/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/tmp/fpga_project/src/uart.sv":187)
+WARN  (EX3791) : Expression size 4 truncated to fit in target size 3("/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/tmp/fpga_project/src/uart.sv":196)
+WARN  (EX3791) : Expression size 26 truncated to fit in target size 25("/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/tmp/fpga_project/src/uart.sv":200)
+WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/tmp/fpga_project/src/uart.sv":208)
+WARN  (EX3791) : Expression size 26 truncated to fit in target size 25("/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/tmp/fpga_project/src/uart.sv":213)
+WARN  (EX3791) : Expression size 26 truncated to fit in target size 25("/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/tmp/fpga_project/src/uart.sv":220)
+WARN  (EX2565) : Input 'btn1' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/tmp/fpga_project/src/top.v":46)
+NOTE  (EX0101) : Current top module is "top"
+WARN  (EX0211) : The output port "uart_tx" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/tmp/fpga_project/src/top.v":5)
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/tmp/fpga_project/impl/gwsynthesis/fpga_project.vg" completed
+[100%] Generate report file "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/tmp/fpga_project/impl/gwsynthesis/fpga_project_syn.rpt.html" completed
+GowinSynthesis finish

@@ -1,0 +1,2 @@
+bug : เมื่อreset_nแล้ว uart_rx กลายเป็น 0 
+fix : D-flipflop ตรง syn uart เขียน condisetion เมื่อ reset ผิด ควรเป็น 1 แต่ว่าเขียนเป็น 0 

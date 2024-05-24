@@ -1,0 +1,21 @@
+{
+ "Device" : "GW1NR-9C",
+ "Files" : [
+  {
+   "Path" : "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/01_gowin/PLL/src/gowin_rpll/gowin_rpll.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/01_gowin/PLL/top.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/01_gowin/PLL/impl/temp/rtl_parser.result",
+ "Top" : "",
+ "VerilogStd" : "sysv",
+ "VhdlStd" : "vhdl_93"
+}

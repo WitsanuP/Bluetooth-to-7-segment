@@ -1,0 +1,12 @@
+-d /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/tmp/fpga_project/impl/gwsynthesis/fpga_project.vg
+-p GW1NR-9C-QFN88P-6
+-pn GW1NR-LV9QN88PC6/I5
+-cst /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/tmp/fpga_project/src/fpga_project.cst
+-cfg /home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/tmp/fpga_project/impl/pnr/device.cfg
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-correct_hold 1
+-route_maxfan 23
