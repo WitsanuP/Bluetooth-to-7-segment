@@ -4,9 +4,12 @@ module top (
     input             uart_rx,
     output wire       uart_tx,
     output wire [7:0] leds,
-    output reg       debug_uart
+    output reg       debug_uart,
+    output wire      clk_30
 );
     wire clk_30MHz;
+
+    assign clk_30 = clk_30MHz;
 
     reg r_sync_0;
     reg r_sync_1;

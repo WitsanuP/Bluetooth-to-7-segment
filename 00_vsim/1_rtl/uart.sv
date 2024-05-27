@@ -10,19 +10,7 @@ module uart
     input btn1,
     output uart_tx,
     output reg [7:0] leds=0
-    
 );
-
-// localparam _0 = 7'b011_1111;
-// localparam _1 = 7'b000_1001;
-// localparam _2 = 7'b101_1110;
-// localparam _3 = 7'b101_1011;
-// localparam _4 = 7'b110_1001;
-// localparam _5 = 7'b111_0011;
-// localparam _6 = 7'b111_0111;
-// localparam _7 = 7'b001_1001;
-// localparam _8 = 7'b111_1111;
-// localparam _9 = 7'b111_1011;
 
 localparam HALF_DELAY_WAIT = (DELAY_FRAMES / 2);
 
@@ -35,18 +23,18 @@ typedef enum reg[2:0]{
 } e_rxState;
 
 e_rxState rxState ;
-// localparam RX_STATE_IDLE = 0;
-// localparam RX_STATE_START_BIT = 1;
-// localparam RX_STATE_READ_WAIT = 2;
-// localparam RX_STATE_READ = 3;
-// localparam RX_STATE_STOP_BIT = 4;
-
 
 reg [12:0] rxCounter = 0;
-reg [9:0] dataIn [0:7] = 0;
+reg [79:0] dataIn = 0;
 reg [2:0] rxBitNumber = 0;
 reg byteReady = 0;
 reg debug_readuart = 0;
+reg data_counter_byte = 1;
+
+wire [15:0] debug;// ! degug
+assign debug = dataIn[79-:16]; // ! debug
+wire ok;
+assign ok = (debug == 16'h0D0A)? 1 : 0;
 
 always @(posedge clk or negedge reset_n) begin
     if(~reset_n)begin
@@ -85,14 +73,22 @@ always @(posedge clk or negedge reset_n) begin
                 end
             end
             RX_STATE_READ: begin
-                rxCounter <= 1;
-                dataIn <= {uart_rx, dataIn[7:1]};
-                debug_readuart <= 1;
-                rxBitNumber <= rxBitNumber + 1;
-                if (rxBitNumber == 3'b111)
+                if (dataIn[79-:8] == 8'h0A)begin//0D0A 50B0 //! debuging
+                //เจอ oa od แต่ว่าแยกท่อนส่งเป็น8bit bug น่าจะอยู่ตรงการส่งละหว่างbitจะมีhighมาแทรก
+                    rxCounter <= 1;
                     rxState <= RX_STATE_STOP_BIT;
-                else
+                    
+                end
+                else begin
+                    rxCounter <= 1;
+                    dataIn <= {uart_rx, dataIn[79:1]};// TODO 
+
+                    debug_readuart <= 1;
+                    rxBitNumber <= rxBitNumber + 1;
+                    if (rxBitNumber == 3'b111)begin// TODO wow
+                        always @(posedge clk)
                     rxState <= RX_STATE_READ_WAIT;
+                end
             end
             RX_STATE_STOP_BIT: begin
                 rxCounter <= rxCounter + 1;
@@ -114,20 +110,8 @@ always @(posedge clk or negedge reset_n) begin
     end else begin
         if (byteReady) begin
             //led <= ~dataIn[5:0];
-            leds <= dataIn;
-            // case (dataIn)
-            //     0       :   leds <= _0;
-            //     1       :   leds <= _1; 
-            //     2       :   leds <= _2;
-            //     3       :   leds <= _3;
-            //     4       :   leds <= _4;
-            //     5       :   leds <= _5;
-            //     6       :   leds <= _6; 
-            //     7       :   leds <= _7;
-            //     8       :   leds <= _8;
-            //     9       :   leds <= _9;
-            //     default :   leds <= _5;
-            // endcase
+            leds <= 8'h5F;// !debuging dataIn[63-:8];
+            //leds <= dataIn[]//dataIn[63-:8];
         end
     end
 end

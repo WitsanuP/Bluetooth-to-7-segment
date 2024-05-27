@@ -43,7 +43,7 @@ e_rxState rxState ;
 
 
 reg [12:0] rxCounter = 0;
-reg [7:0] dataIn = 0;
+reg [79:0] dataIn = 0;
 reg [2:0] rxBitNumber = 0;
 reg byteReady = 0;
 reg debug_readuart = 0;
@@ -86,7 +86,7 @@ always @(posedge clk or negedge reset_n) begin
             end
             RX_STATE_READ: begin
                 rxCounter <= 1;
-                dataIn <= {uart_rx, dataIn[7:1]};
+                dataIn <= {uart_rx, dataIn[79:1]};
                 debug_readuart <= 1;
                 rxBitNumber <= rxBitNumber + 1;
                 if (rxBitNumber == 3'b111)
@@ -114,7 +114,7 @@ always @(posedge clk or negedge reset_n) begin
     end else begin
         if (byteReady) begin
             //led <= ~dataIn[5:0];
-            leds <= dataIn;
+            leds <= dataIn[63:56];
             // case (dataIn)
             //     0       :   leds <= _0;
             //     1       :   leds <= _1; 

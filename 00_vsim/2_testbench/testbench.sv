@@ -23,6 +23,8 @@ enum reg [1:0]{
     //wire [5:0] led;
     integer uart_bit;
 
+    wire t_clk_30;
+
     // ----------- device under test -----------
     top dut(
         .clk     /*  input       */ (clk      )
@@ -30,28 +32,31 @@ enum reg [1:0]{
     ,   .reset_n /*  input       */ (t_reset_n)
     ,   .uart_tx ()
     ,   .leds    ()
-    
+    ,   .clk_30                     (t_clk_30)
     );
 
     // ----------- system signal generator-----------
     always #(37037/2) clk = ~clk;
 
     // ----------- tasks -----------
-    task write_data(input [7:0] wdata);
-        uart_ez_state <= start;
-        t_uart_tx     <= 0;
-        repeat(234)@(posedge clk);
+    task write_data(input [7:0] wdata,input string uart_mode = "start-stop");
+        if(uart_mode=="start" | uart_mode=="start-stop")begin
+            uart_ez_state <= start;
+            t_uart_tx     <= 0;
+            repeat(260)@(posedge t_clk_30);
+        end
 
         for (uart_bit = 7; uart_bit >= 0; uart_bit--) begin
             uart_ez_state <= data;
             t_uart_tx     <= wdata[uart_bit];
-            repeat(234)@(posedge clk);
+            repeat(260)@(posedge t_clk_30);
         end
-
-        uart_ez_state <= stop;
-        t_uart_tx     <= 1;
-        repeat(234)@(posedge clk);
-
+        if(uart_mode == "stop" | uart_mode=="start-stop")begin
+            uart_ez_state <= stop;
+            t_uart_tx     <= 1;
+            repeat(260)@(posedge t_clk_30);
+        end
+        
         uart_ez_state <= idle;
         uart_bit      <= 7;
     endtask : write_data
@@ -59,29 +64,20 @@ enum reg [1:0]{
     // ----------- test scenarios -----------
     initial begin
         $display("Starting UART RX");
-        repeat(15)@(posedge clk);
-        t_reset_n <= 1;
-
         // t_random_value = $urandom_range(0,255);
         // write_data(t_random_value);
         // t_random_value = 0;
-        repeat(10_000)@(posedge clk);
-        t_reset_n <= 0;
-        repeat(100)@(posedge clk);
+        repeat(100)@(posedge t_clk_30);
         t_reset_n <= 1;
-        repeat(10_500)@(posedge clk);
-        write_data(8'haa);
-        repeat(500)@(posedge clk);
-        t_reset_n <= 0;
-        repeat(100)@(posedge clk);
-        t_reset_n <= 1;
-        repeat(20_000)@(posedge clk);
-        write_data(8'hA5);
-        repeat(1000)@(posedge clk);
-        write_data(8'h66);
+
+        repeat(10_000)@(posedge t_clk_30);
+        write_data(8'h13,"start");
+        
+        write_data(8'h50,"of");
+        write_data(8'hB0,"stop");
         // #4 btn=0;
         // #4 btn=1;
-        repeat(1000)@(posedge clk);
+        repeat(10000)@(posedge t_clk_30);
         $stop;
     end
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Module name="top" Register="2" Lut="1">
  <SubModule name="myPll"/>
- <SubModule name="uart_m" Register="36" Lut="45"/>
+ <SubModule name="uart_m" Register="52" Lut="45"/>
 </Module>
