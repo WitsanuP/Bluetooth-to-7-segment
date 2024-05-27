@@ -10,6 +10,7 @@ module uart
     input btn1,
     output uart_tx,
     output reg [7:0] leds=0
+    
 );
 
 localparam HALF_DELAY_WAIT = (DELAY_FRAMES / 2);
@@ -29,12 +30,6 @@ reg [79:0] dataIn = 0;
 reg [2:0] rxBitNumber = 0;
 reg byteReady = 0;
 reg debug_readuart = 0;
-reg data_counter_byte = 1;
-
-wire [15:0] debug;// ! degug
-assign debug = dataIn[79-:16]; // ! debug
-wire ok;
-assign ok = (debug == 16'h0D0A)? 1 : 0;
 
 always @(posedge clk or negedge reset_n) begin
     if(~reset_n)begin
@@ -73,22 +68,14 @@ always @(posedge clk or negedge reset_n) begin
                 end
             end
             RX_STATE_READ: begin
-                if (dataIn[79-:8] == 8'h0A)begin//0D0A 50B0 //! debuging
-                //เจอ oa od แต่ว่าแยกท่อนส่งเป็น8bit bug น่าจะอยู่ตรงการส่งละหว่างbitจะมีhighมาแทรก
-                    rxCounter <= 1;
+                rxCounter <= 1;
+                dataIn <= {uart_rx, dataIn[79:1]};
+                debug_readuart <= 1;
+                rxBitNumber <= rxBitNumber + 1;
+                if (rxBitNumber == 3'b111)
                     rxState <= RX_STATE_STOP_BIT;
-                    
-                end
-                else begin
-                    rxCounter <= 1;
-                    dataIn <= {uart_rx, dataIn[79:1]};// TODO 
-
-                    debug_readuart <= 1;
-                    rxBitNumber <= rxBitNumber + 1;
-                    if (rxBitNumber == 3'b111)begin// TODO wow
-                        always @(posedge clk)
+                else
                     rxState <= RX_STATE_READ_WAIT;
-                end
             end
             RX_STATE_STOP_BIT: begin
                 rxCounter <= rxCounter + 1;
@@ -110,8 +97,7 @@ always @(posedge clk or negedge reset_n) begin
     end else begin
         if (byteReady) begin
             //led <= ~dataIn[5:0];
-            leds <= 8'h5F;// !debuging dataIn[63-:8];
-            //leds <= dataIn[]//dataIn[63-:8];
+            leds <= dataIn[63:56];
         end
     end
 end
