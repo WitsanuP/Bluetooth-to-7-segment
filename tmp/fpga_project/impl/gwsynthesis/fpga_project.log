@@ -1,23 +1,23 @@
 GowinSynthesis start
 Running parser ...
-Analyzing Verilog file '/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/tmp/fpga_project/src/uart.sv'
-WARN  (EX2478) : Non-net output port 'leds' cannot be initialized at declaration in SystemVerilog mode("/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/tmp/fpga_project/src/uart.sv":12)
 Analyzing Verilog file '/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/tmp/fpga_project/src/PLL.v'
 Analyzing Verilog file '/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/tmp/fpga_project/src/top.v'
+Analyzing Verilog file '/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/tmp/fpga_project/src/uart.sv'
+WARN  (EX2478) : Non-net output port 'leds' cannot be initialized at declaration in SystemVerilog mode("/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/tmp/fpga_project/src/uart.sv":12)
 Compiling module 'top'("/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/tmp/fpga_project/src/top.v":1)
 Compiling module 'Gowin_rPLL'("/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/tmp/fpga_project/src/PLL.v":10)
 Compiling module 'uart'("/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/tmp/fpga_project/src/uart.sv":1)
-Extracting RAM for identifier 'testMemory'("/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/tmp/fpga_project/src/uart.sv":144)
+Extracting RAM for identifier 'testMemory'("/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/tmp/fpga_project/src/uart.sv":145)
 WARN  (EX3791) : Expression size 14 truncated to fit in target size 13("/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/tmp/fpga_project/src/uart.sv":78)
 WARN  (EX3791) : Expression size 14 truncated to fit in target size 13("/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/tmp/fpga_project/src/uart.sv":81)
 WARN  (EX3791) : Expression size 4 truncated to fit in target size 3("/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/tmp/fpga_project/src/uart.sv":91)
 WARN  (EX3791) : Expression size 14 truncated to fit in target size 13("/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/tmp/fpga_project/src/uart.sv":98)
-WARN  (EX3791) : Expression size 26 truncated to fit in target size 25("/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/tmp/fpga_project/src/uart.sv":187)
-WARN  (EX3791) : Expression size 4 truncated to fit in target size 3("/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/tmp/fpga_project/src/uart.sv":196)
-WARN  (EX3791) : Expression size 26 truncated to fit in target size 25("/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/tmp/fpga_project/src/uart.sv":200)
-WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/tmp/fpga_project/src/uart.sv":208)
-WARN  (EX3791) : Expression size 26 truncated to fit in target size 25("/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/tmp/fpga_project/src/uart.sv":213)
-WARN  (EX3791) : Expression size 26 truncated to fit in target size 25("/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/tmp/fpga_project/src/uart.sv":220)
+WARN  (EX3791) : Expression size 26 truncated to fit in target size 25("/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/tmp/fpga_project/src/uart.sv":188)
+WARN  (EX3791) : Expression size 4 truncated to fit in target size 3("/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/tmp/fpga_project/src/uart.sv":197)
+WARN  (EX3791) : Expression size 26 truncated to fit in target size 25("/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/tmp/fpga_project/src/uart.sv":201)
+WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/tmp/fpga_project/src/uart.sv":209)
+WARN  (EX3791) : Expression size 26 truncated to fit in target size 25("/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/tmp/fpga_project/src/uart.sv":214)
+WARN  (EX3791) : Expression size 26 truncated to fit in target size 25("/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/tmp/fpga_project/src/uart.sv":221)
 WARN  (EX2565) : Input 'btn1' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/tmp/fpga_project/src/top.v":46)
 NOTE  (EX0101) : Current top module is "top"
 WARN  (EX0211) : The output port "uart_tx" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/tmp/fpga_project/src/top.v":5)

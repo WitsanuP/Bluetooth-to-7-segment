@@ -43,7 +43,7 @@ e_rxState rxState ;
 
 
 reg [12:0] rxCounter = 0;
-reg [7:0] dataIn = 0;
+reg [9:0] dataIn [0:7] = 0;
 reg [2:0] rxBitNumber = 0;
 reg byteReady = 0;
 reg debug_readuart = 0;
@@ -101,6 +101,7 @@ always @(posedge clk or negedge reset_n) begin
                     rxState <= RX_STATE_IDLE;
                     rxCounter <= 0;
                     byteReady <= 1;
+                    
                 end
             end
         endcase

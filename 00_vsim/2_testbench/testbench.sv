@@ -77,7 +77,8 @@ enum reg [1:0]{
         t_reset_n <= 1;
         repeat(20_000)@(posedge clk);
         write_data(8'hA5);
-        
+        repeat(1000)@(posedge clk);
+        write_data(8'h66);
         // #4 btn=0;
         // #4 btn=1;
         repeat(1000)@(posedge clk);

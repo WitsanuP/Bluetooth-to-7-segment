@@ -101,6 +101,7 @@ always @(posedge clk or negedge reset_n) begin
                     rxState <= RX_STATE_IDLE;
                     rxCounter <= 0;
                     byteReady <= 1;
+                    
                 end
             end
         endcase

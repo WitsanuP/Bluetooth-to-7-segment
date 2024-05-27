@@ -10,6 +10,8 @@ add wave -position insertpoint /testbench/dut/uart_m/clk
 add wave -position insertpoint /testbench/dut/uart_m/uart_rx
 add wave -position insertpoint /testbench/dut/uart_m/reset_n
 add wave -position end  sim:/testbench/dut/uart_m/dataIn
+add wave -position insertpoint sim:/testbench/dut/uart_m/rxCounter
+add wave -position insertpoint sim:/testbench/dut/uart_m/rxState
 
 restart -force
 

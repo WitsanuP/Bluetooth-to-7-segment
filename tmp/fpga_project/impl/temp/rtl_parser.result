@@ -9,7 +9,7 @@
   "SubInsts" : [
    {
     "InstFile" : "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/tmp/fpga_project/src/top.v",
-    "InstLine" : 13,
+    "InstLine" : 14,
     "InstName" : "myPll",
     "ModuleFile" : "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/tmp/fpga_project/src/PLL.v",
     "ModuleLine" : 10,
@@ -17,7 +17,7 @@
    },
    {
     "InstFile" : "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/tmp/fpga_project/src/top.v",
-    "InstLine" : 35,
+    "InstLine" : 38,
     "InstName" : "uart_m",
     "ModuleFile" : "/home/pol/Documents/KMITL/year3/project1/BluetoothToSevensegment/tmp/fpga_project/src/uart.sv",
     "ModuleLine" : 1,

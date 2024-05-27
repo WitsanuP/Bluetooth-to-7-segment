@@ -1,0 +1,182 @@
+Sun May 26 20:17:39 +07 2024
+Trace back: too many nested evaluations (infinite loop?)
+    while executing
+"TclUpdate {*}$idleTasks"
+    (procedure "update" line 14)
+    invoked from within
+"update idletasks"
+    (procedure "::tk::PlaceWindow" line 3)
+    invoked from within
+"::tk::PlaceWindow $w"
+    (procedure "tk_dialog" line 118)
+    invoked from within
+"tk_dialog .srcobjdlg "Warning!" "$msg" "" 1 Overwrite Reload Ignore"
+    (object "::.main_pane.source2.interior.cs.body.srcobj" method "::vsimwidgets::Srcobj::CheckModification" body line 18)
+    invoked from within
+"::.main_pane.source2.interior.cs.body.srcobj CheckModification"
+    (in namespace inscope "::vsimwidgets::Srcobj" script line 1)
+    invoked from within
+"namespace inscope ::vsimwidgets::Srcobj {::.main_pane.source2.interior.cs.body.srcobj CheckModification}"
+    (command bound to event)
+  <2:/home/pol/Program/altera/modelsim_ase/linuxaloem/tk8.6/bgerror.tcl:106: ::tkerror {too many nested evaluations (infinite loop?)}
+  <1:eval:1: ::tk::dialog::error::bgerror {too many nested evaluations (infinite loop?)}
+Sun May 26 20:18:09 +07 2024
+Trace back: window ".srcobjdlg" was deleted before its visibility changed
+    while executing
+"tkwait visibility $w"
+    (procedure "tk_dialog" line 119)
+    invoked from within
+"tk_dialog .srcobjdlg "Warning!" "$msg" "" 1 Overwrite Reload Ignore"
+    (object "::.main_pane.source2.interior.cs.body.srcobj" method "::vsimwidgets::Srcobj::CheckModification" body line 18)
+    invoked from within
+"::.main_pane.source2.interior.cs.body.srcobj CheckModification"
+    (in namespace inscope "::vsimwidgets::Srcobj" script line 1)
+    invoked from within
+"namespace inscope ::vsimwidgets::Srcobj {::.main_pane.source2.interior.cs.body.srcobj CheckModification}"
+    (command bound to event)
+  <2:/home/pol/Program/altera/modelsim_ase/linuxaloem/tk8.6/bgerror.tcl:106: ::tkerror {window ".srcobjdlg" was deleted before its visibility changed}
+  <1:proc:153: ::tk::dialog::error::bgerror {window ".srcobjdlg" was deleted before its visibility changed}
+Sun May 26 20:18:39 +07 2024
+Trace back: window ".srcobjdlg" was deleted before its visibility changed
+    while executing
+"tkwait visibility $w"
+    (procedure "tk_dialog" line 119)
+    invoked from within
+"tk_dialog .srcobjdlg "Warning!" "$msg" "" 1 Overwrite Reload Ignore"
+    (object "::.main_pane.source2.interior.cs.body.srcobj" method "::vsimwidgets::Srcobj::CheckModification" body line 18)
+    invoked from within
+"::.main_pane.source2.interior.cs.body.srcobj CheckModification"
+    (in namespace inscope "::vsimwidgets::Srcobj" script line 1)
+    invoked from within
+"namespace inscope ::vsimwidgets::Srcobj {::.main_pane.source2.interior.cs.body.srcobj CheckModification}"
+    (command bound to event)
+  <2:/home/pol/Program/altera/modelsim_ase/linuxaloem/tk8.6/bgerror.tcl:106: ::tkerror {window ".srcobjdlg" was deleted before its visibility changed}
+  <1:proc:153: ::tk::dialog::error::bgerror {window ".srcobjdlg" was deleted before its visibility changed}
+Sun May 26 20:19:09 +07 2024
+Trace back: window ".srcobjdlg" was deleted before its visibility changed
+    while executing
+"tkwait visibility $w"
+    (procedure "tk_dialog" line 119)
+    invoked from within
+"tk_dialog .srcobjdlg "Warning!" "$msg" "" 1 Overwrite Reload Ignore"
+    (object "::.main_pane.source2.interior.cs.body.srcobj" method "::vsimwidgets::Srcobj::CheckModification" body line 18)
+    invoked from within
+"::.main_pane.source2.interior.cs.body.srcobj CheckModification"
+    (in namespace inscope "::vsimwidgets::Srcobj" script line 1)
+    invoked from within
+"namespace inscope ::vsimwidgets::Srcobj {::.main_pane.source2.interior.cs.body.srcobj CheckModification}"
+    (command bound to event)
+  <2:/home/pol/Program/altera/modelsim_ase/linuxaloem/tk8.6/bgerror.tcl:106: ::tkerror {window ".srcobjdlg" was deleted before its visibility changed}
+  <1:proc:153: ::tk::dialog::error::bgerror {window ".srcobjdlg" was deleted before its visibility changed}
+Sun May 26 20:19:39 +07 2024
+Trace back: window ".srcobjdlg" was deleted before its visibility changed
+    while executing
+"tkwait visibility $w"
+    (procedure "tk_dialog" line 119)
+    invoked from within
+"tk_dialog .srcobjdlg "Warning!" "$msg" "" 1 Overwrite Reload Ignore"
+    (object "::.main_pane.source2.interior.cs.body.srcobj" method "::vsimwidgets::Srcobj::CheckModification" body line 18)
+    invoked from within
+"::.main_pane.source2.interior.cs.body.srcobj CheckModification"
+    (in namespace inscope "::vsimwidgets::Srcobj" script line 1)
+    invoked from within
+"namespace inscope ::vsimwidgets::Srcobj {::.main_pane.source2.interior.cs.body.srcobj CheckModification}"
+    (command bound to event)
+  <2:/home/pol/Program/altera/modelsim_ase/linuxaloem/tk8.6/bgerror.tcl:106: ::tkerror {window ".srcobjdlg" was deleted before its visibility changed}
+  <1:proc:153: ::tk::dialog::error::bgerror {window ".srcobjdlg" was deleted before its visibility changed}
+Sun May 26 20:20:09 +07 2024
+Trace back: window ".srcobjdlg" was deleted before its visibility changed
+    while executing
+"tkwait visibility $w"
+    (procedure "tk_dialog" line 119)
+    invoked from within
+"tk_dialog .srcobjdlg "Warning!" "$msg" "" 1 Overwrite Reload Ignore"
+    (object "::.main_pane.source2.interior.cs.body.srcobj" method "::vsimwidgets::Srcobj::CheckModification" body line 18)
+    invoked from within
+"::.main_pane.source2.interior.cs.body.srcobj CheckModification"
+    (in namespace inscope "::vsimwidgets::Srcobj" script line 1)
+    invoked from within
+"namespace inscope ::vsimwidgets::Srcobj {::.main_pane.source2.interior.cs.body.srcobj CheckModification}"
+    (command bound to event)
+  <2:/home/pol/Program/altera/modelsim_ase/linuxaloem/tk8.6/bgerror.tcl:106: ::tkerror {window ".srcobjdlg" was deleted before its visibility changed}
+  <1:proc:153: ::tk::dialog::error::bgerror {window ".srcobjdlg" was deleted before its visibility changed}
+Sun May 26 20:20:39 +07 2024
+Trace back: window ".srcobjdlg" was deleted before its visibility changed
+    while executing
+"tkwait visibility $w"
+    (procedure "tk_dialog" line 119)
+    invoked from within
+"tk_dialog .srcobjdlg "Warning!" "$msg" "" 1 Overwrite Reload Ignore"
+    (object "::.main_pane.source2.interior.cs.body.srcobj" method "::vsimwidgets::Srcobj::CheckModification" body line 18)
+    invoked from within
+"::.main_pane.source2.interior.cs.body.srcobj CheckModification"
+    (in namespace inscope "::vsimwidgets::Srcobj" script line 1)
+    invoked from within
+"namespace inscope ::vsimwidgets::Srcobj {::.main_pane.source2.interior.cs.body.srcobj CheckModification}"
+    (command bound to event)
+  <2:/home/pol/Program/altera/modelsim_ase/linuxaloem/tk8.6/bgerror.tcl:106: ::tkerror {window ".srcobjdlg" was deleted before its visibility changed}
+  <1:proc:153: ::tk::dialog::error::bgerror {window ".srcobjdlg" was deleted before its visibility changed}
+Sun May 26 20:21:09 +07 2024
+Trace back: window ".srcobjdlg" was deleted before its visibility changed
+    while executing
+"tkwait visibility $w"
+    (procedure "tk_dialog" line 119)
+    invoked from within
+"tk_dialog .srcobjdlg "Warning!" "$msg" "" 1 Overwrite Reload Ignore"
+    (object "::.main_pane.source2.interior.cs.body.srcobj" method "::vsimwidgets::Srcobj::CheckModification" body line 18)
+    invoked from within
+"::.main_pane.source2.interior.cs.body.srcobj CheckModification"
+    (in namespace inscope "::vsimwidgets::Srcobj" script line 1)
+    invoked from within
+"namespace inscope ::vsimwidgets::Srcobj {::.main_pane.source2.interior.cs.body.srcobj CheckModification}"
+    (command bound to event)
+  <2:/home/pol/Program/altera/modelsim_ase/linuxaloem/tk8.6/bgerror.tcl:106: ::tkerror {window ".srcobjdlg" was deleted before its visibility changed}
+  <1:proc:153: ::tk::dialog::error::bgerror {window ".srcobjdlg" was deleted before its visibility changed}
+Sun May 26 20:21:39 +07 2024
+Trace back: window ".srcobjdlg" was deleted before its visibility changed
+    while executing
+"tkwait visibility $w"
+    (procedure "tk_dialog" line 119)
+    invoked from within
+"tk_dialog .srcobjdlg "Warning!" "$msg" "" 1 Overwrite Reload Ignore"
+    (object "::.main_pane.source2.interior.cs.body.srcobj" method "::vsimwidgets::Srcobj::CheckModification" body line 18)
+    invoked from within
+"::.main_pane.source2.interior.cs.body.srcobj CheckModification"
+    (in namespace inscope "::vsimwidgets::Srcobj" script line 1)
+    invoked from within
+"namespace inscope ::vsimwidgets::Srcobj {::.main_pane.source2.interior.cs.body.srcobj CheckModification}"
+    (command bound to event)
+  <2:/home/pol/Program/altera/modelsim_ase/linuxaloem/tk8.6/bgerror.tcl:106: ::tkerror {window ".srcobjdlg" was deleted before its visibility changed}
+  <1:proc:153: ::tk::dialog::error::bgerror {window ".srcobjdlg" was deleted before its visibility changed}
+Sun May 26 20:22:09 +07 2024
+Trace back: window ".srcobjdlg" was deleted before its visibility changed
+    while executing
+"tkwait visibility $w"
+    (procedure "tk_dialog" line 119)
+    invoked from within
+"tk_dialog .srcobjdlg "Warning!" "$msg" "" 1 Overwrite Reload Ignore"
+    (object "::.main_pane.source2.interior.cs.body.srcobj" method "::vsimwidgets::Srcobj::CheckModification" body line 18)
+    invoked from within
+"::.main_pane.source2.interior.cs.body.srcobj CheckModification"
+    (in namespace inscope "::vsimwidgets::Srcobj" script line 1)
+    invoked from within
+"namespace inscope ::vsimwidgets::Srcobj {::.main_pane.source2.interior.cs.body.srcobj CheckModification}"
+    (command bound to event)
+  <2:/home/pol/Program/altera/modelsim_ase/linuxaloem/tk8.6/bgerror.tcl:106: ::tkerror {window ".srcobjdlg" was deleted before its visibility changed}
+  <1:proc:153: ::tk::dialog::error::bgerror {window ".srcobjdlg" was deleted before its visibility changed}
+Sun May 26 20:22:39 +07 2024
+Trace back: window ".srcobjdlg" was deleted before its visibility changed
+    while executing
+"tkwait visibility $w"
+    (procedure "tk_dialog" line 119)
+    invoked from within
+"tk_dialog .srcobjdlg "Warning!" "$msg" "" 1 Overwrite Reload Ignore"
+    (object "::.main_pane.source2.interior.cs.body.srcobj" method "::vsimwidgets::Srcobj::CheckModification" body line 18)
+    invoked from within
+"::.main_pane.source2.interior.cs.body.srcobj CheckModification"
+    (in namespace inscope "::vsimwidgets::Srcobj" script line 1)
+    invoked from within
+"namespace inscope ::vsimwidgets::Srcobj {::.main_pane.source2.interior.cs.body.srcobj CheckModification}"
+    (command bound to event)
+  <2:/home/pol/Program/altera/modelsim_ase/linuxaloem/tk8.6/bgerror.tcl:106: ::tkerror {window ".srcobjdlg" was deleted before its visibility changed}
+  <1:proc:153: ::tk::dialog::error::bgerror {window ".srcobjdlg" was deleted before its visibility changed}
